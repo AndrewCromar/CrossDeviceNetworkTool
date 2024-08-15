@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programming\\Winforms\\TrollCMD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|d:\\programming\\winforms\\trollcmd\\trollcmd\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|solutionrelative:trollcmd\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|d:\\programming\\winforms\\trollcmd\\trollcmd\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|solutionrelative:trollcmd\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|D:\\Programming\\Winforms\\TrollCMD\\trollcmd\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|solutionrelative:trollcmd\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|d:\\programming\\winforms\\trollcmd\\trollcmd\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|solutionrelative:trollcmd\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|d:\\programming\\winforms\\trollcmd\\trollcmd\\trollcmd.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|solutionrelative:trollcmd\\trollcmd.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|d:\\programming\\winforms\\trollcmd\\trollcmd\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|solutionrelative:trollcmd\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|D:\\Programming\\Winforms\\TrollCMD\\trollcmd\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|solutionrelative:trollcmd\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|D:\\Programming\\Winforms\\TrollCMD\\trollcmd\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|solutionrelative:trollcmd\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "D:\\Programming\\Winforms\\TrollCMD\\TrollCMD\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "TrollCMD\\Properties\\Settings.settings",
+              "ToolTip": "D:\\Programming\\Winforms\\TrollCMD\\TrollCMD\\Properties\\Settings.settings",
+              "RelativeToolTip": "TrollCMD\\Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2024-08-15T21:04:42.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TrollCMD",
+              "DocumentMoniker": "D:\\Programming\\Winforms\\TrollCMD\\TrollCMD\\TrollCMD.csproj",
+              "RelativeDocumentMoniker": "TrollCMD\\TrollCMD.csproj",
+              "ToolTip": "D:\\Programming\\Winforms\\TrollCMD\\TrollCMD\\TrollCMD.csproj",
+              "RelativeToolTip": "TrollCMD\\TrollCMD.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-15T21:04:39.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "start.cs",
+              "DocumentMoniker": "D:\\Programming\\Winforms\\TrollCMD\\TrollCMD\\start.cs",
+              "RelativeDocumentMoniker": "TrollCMD\\start.cs",
+              "ToolTip": "D:\\Programming\\Winforms\\TrollCMD\\TrollCMD\\start.cs",
+              "RelativeToolTip": "TrollCMD\\start.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T01:26:15.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "start.cs [Design]",
+              "DocumentMoniker": "D:\\Programming\\Winforms\\TrollCMD\\TrollCMD\\start.cs",
+              "RelativeDocumentMoniker": "TrollCMD\\start.cs",
+              "ToolTip": "D:\\Programming\\Winforms\\TrollCMD\\TrollCMD\\start.cs [Design]",
+              "RelativeToolTip": "TrollCMD\\start.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T01:24:10.468Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "server.cs",
+              "DocumentMoniker": "D:\\Programming\\Winforms\\TrollCMD\\TrollCMD\\server.cs",
+              "RelativeDocumentMoniker": "TrollCMD\\server.cs",
+              "ToolTip": "D:\\Programming\\Winforms\\TrollCMD\\TrollCMD\\server.cs",
+              "RelativeToolTip": "TrollCMD\\server.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAcwFcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T01:07:15.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "server.cs [Design]",
+              "DocumentMoniker": "D:\\Programming\\Winforms\\TrollCMD\\TrollCMD\\server.cs",
+              "RelativeDocumentMoniker": "TrollCMD\\server.cs",
+              "ToolTip": "D:\\Programming\\Winforms\\TrollCMD\\TrollCMD\\server.cs [Design]",
+              "RelativeToolTip": "TrollCMD\\server.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T00:37:59.597Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "client.cs",
+              "DocumentMoniker": "D:\\Programming\\Winforms\\TrollCMD\\TrollCMD\\client.cs",
+              "RelativeDocumentMoniker": "TrollCMD\\client.cs",
+              "ToolTip": "D:\\Programming\\Winforms\\TrollCMD\\TrollCMD\\client.cs",
+              "RelativeToolTip": "TrollCMD\\client.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowB0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T01:17:57.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "client.cs [Design]",
+              "DocumentMoniker": "D:\\Programming\\Winforms\\TrollCMD\\TrollCMD\\client.cs",
+              "RelativeDocumentMoniker": "TrollCMD\\client.cs",
+              "ToolTip": "D:\\Programming\\Winforms\\TrollCMD\\TrollCMD\\client.cs [Design]",
+              "RelativeToolTip": "TrollCMD\\client.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T00:35:41.09Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
