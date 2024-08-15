@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(server));
             btn_start = new Button();
             lbl_host = new Label();
             txt_host = new TextBox();
@@ -36,6 +38,7 @@
             btn_stop = new Button();
             txt_output = new RichTextBox();
             btn_menu = new Button();
+            ni_trayIcon = new NotifyIcon(components);
             SuspendLayout();
             // 
             // btn_start
@@ -110,6 +113,12 @@
             btn_menu.UseVisualStyleBackColor = true;
             btn_menu.Click += btn_menu_Click;
             // 
+            // ni_trayIcon
+            // 
+            ni_trayIcon.Icon = (Icon)resources.GetObject("ni_trayIcon.Icon");
+            ni_trayIcon.Text = "TrollCMD - AndrewCromar";
+            ni_trayIcon.MouseDoubleClick += ni_trayIcon_MouseDoubleClick;
+            // 
             // server
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -142,5 +151,6 @@
         private Button btn_stop;
         private RichTextBox txt_output;
         private Button btn_menu;
+        private NotifyIcon ni_trayIcon;
     }
 }

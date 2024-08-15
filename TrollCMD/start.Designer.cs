@@ -113,7 +113,6 @@
             // 
             ni_trayIcon.Icon = (Icon)resources.GetObject("ni_trayIcon.Icon");
             ni_trayIcon.Text = "TrollCMD - AndrewCromar";
-            ni_trayIcon.Visible = true;
             ni_trayIcon.MouseDoubleClick += ni_trayIcon_MouseDoubleClick;
             // 
             // gb_controlls

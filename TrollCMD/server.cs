@@ -10,6 +10,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net;
+using WMPLib;
+using System.Media;
 
 namespace TrollCMD
 {
@@ -71,6 +73,32 @@ namespace TrollCMD
                 return "Success: Message box shown.";
             }
 
+            if (commandName == "server")
+            {
+                if (arguments == "shutdown")
+                {
+                    new Thread(() =>
+                    {
+                        Thread.Sleep(5000);
+                        Application.Exit();
+                    }).Start();
+
+                    return "Success: Server shutting down in 5 seconds.";
+                }
+            }
+
+            if (commandName == "sfx")
+            {
+                if (arguments == "fart")
+                {
+                    string relativePath = @"fart.wav";
+                    SoundPlayer simpleSound = new SoundPlayer(relativePath);
+                    simpleSound.Play();
+
+                    return "Sucess: Played fart sound.";
+                }
+            }
+
             return "Error running command: No reson given.";
         }
 
@@ -105,9 +133,31 @@ namespace TrollCMD
         {
             StopServer();
             start new_start = new start();
+            new_start.notFirstLoad = true;
             new_start.Show();
             new_start.ExitTray();
             this.Hide();
         }
+
+        #region Tray
+        public void EnterTray()
+        {
+            this.WindowState = FormWindowState.Minimized;
+            this.ShowInTaskbar = false;
+            ni_trayIcon.Visible = true;
+        }
+
+        public void ExitTray()
+        {
+            this.WindowState = FormWindowState.Normal;
+            this.ShowInTaskbar = true;
+            ni_trayIcon.Visible = false;
+        }
+
+        private void ni_trayIcon_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            ExitTray();
+        }
+        #endregion
     }
 }

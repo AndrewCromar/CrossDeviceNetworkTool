@@ -37,6 +37,10 @@
             btx_send = new Button();
             txt_output = new RichTextBox();
             btn_menu = new Button();
+            btn_andrewDesktopIp = new Button();
+            btn_cromarDesktopIp = new Button();
+            gb_ips = new GroupBox();
+            gb_ips.SuspendLayout();
             SuspendLayout();
             // 
             // txt_port
@@ -118,11 +122,43 @@
             btn_menu.UseVisualStyleBackColor = true;
             btn_menu.Click += btn_menu_Click;
             // 
+            // btn_andrewDesktopIp
+            // 
+            btn_andrewDesktopIp.Location = new Point(6, 22);
+            btn_andrewDesktopIp.Name = "btn_andrewDesktopIp";
+            btn_andrewDesktopIp.Size = new Size(135, 23);
+            btn_andrewDesktopIp.TabIndex = 13;
+            btn_andrewDesktopIp.Text = "Andrew's Desktop IP";
+            btn_andrewDesktopIp.UseVisualStyleBackColor = true;
+            btn_andrewDesktopIp.Click += btn_andrewDesktopIp_Click;
+            // 
+            // btn_cromarDesktopIp
+            // 
+            btn_cromarDesktopIp.Location = new Point(6, 51);
+            btn_cromarDesktopIp.Name = "btn_cromarDesktopIp";
+            btn_cromarDesktopIp.Size = new Size(135, 23);
+            btn_cromarDesktopIp.TabIndex = 14;
+            btn_cromarDesktopIp.Text = "Cromar's Desktop IP";
+            btn_cromarDesktopIp.UseVisualStyleBackColor = true;
+            btn_cromarDesktopIp.Click += btn_cromarDesktopIp_Click;
+            // 
+            // gb_ips
+            // 
+            gb_ips.Controls.Add(btn_andrewDesktopIp);
+            gb_ips.Controls.Add(btn_cromarDesktopIp);
+            gb_ips.Location = new Point(387, 6);
+            gb_ips.Name = "gb_ips";
+            gb_ips.Size = new Size(147, 81);
+            gb_ips.TabIndex = 15;
+            gb_ips.TabStop = false;
+            gb_ips.Text = "IP Presets";
+            // 
             // client
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(gb_ips);
             Controls.Add(btn_menu);
             Controls.Add(txt_output);
             Controls.Add(btx_send);
@@ -136,6 +172,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "client";
             Load += client_Load;
+            gb_ips.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -151,5 +188,8 @@
         private Button btx_send;
         private RichTextBox txt_output;
         private Button btn_menu;
+        private Button btn_andrewDesktopIp;
+        private Button btn_cromarDesktopIp;
+        private GroupBox gb_ips;
     }
 }

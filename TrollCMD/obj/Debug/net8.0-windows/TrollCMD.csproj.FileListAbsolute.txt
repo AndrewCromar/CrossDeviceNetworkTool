@@ -20,3 +20,15 @@ D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\TrollCMD.pdb
 D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\TrollCMD.genruntimeconfig.cache
 D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\ref\TrollCMD.dll
 D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\TrollCMD.dll.config
+D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\TrollCMD.sourcelink.json
+D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\Interop.WMPLib.dll
+D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\Interop.MediaPlayer.dll
+D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\TrollCMD.csproj.ResolveComReference.cache
+D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\TrollCMD.Properties.Resources.resources
+D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\NAudio.dll
+D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\NAudio.Asio.dll
+D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\NAudio.Core.dll
+D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\NAudio.Midi.dll
+D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\NAudio.Wasapi.dll
+D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\NAudio.WinForms.dll
+D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\NAudio.WinMM.dll

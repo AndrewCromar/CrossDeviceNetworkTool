@@ -59,5 +59,15 @@ namespace TrollCMD
             new_start.ExitTray();
             this.Hide();
         }
+
+        private void btn_andrewDesktopIp_Click(object sender, EventArgs e)
+        {
+            txt_host.Text = Properties.Settings.Default.andrewDesktopIp;
+        }
+
+        private void btn_cromarDesktopIp_Click(object sender, EventArgs e)
+        {
+            txt_host.Text = Properties.Settings.Default.cromarDesktopIp;
+        }
     }
 }

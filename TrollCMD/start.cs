@@ -18,8 +18,11 @@ namespace TrollCMD
             InitializeComponent();
         }
 
+        public bool notFirstLoad = false;
+
         private void start_Load(object sender, EventArgs e)
         {
+
             bool startInTray = Properties.Settings.Default.startInTray;
             bool bootServerOnStart = Properties.Settings.Default.bootServerOnStart;
 
@@ -27,17 +30,29 @@ namespace TrollCMD
             cb_startWithWindows.Checked = Properties.Settings.Default.startWithWindows;
             cb_bootServerOnStart.Checked = bootServerOnStart;
 
-            if (startInTray)
-            {
-                EnterTray();
-            }
+            if (notFirstLoad) return;
 
-            if (bootServerOnStart)
+            if (bootServerOnStart && startInTray)
             {
                 server new_server = new server();
                 new_server.Show();
                 new_server.StartServer();
+                new_server.EnterTray();
+                this.WindowState = FormWindowState.Minimized;
+                this.ShowInTaskbar = false;
                 this.Hide();
+            }
+            else if (bootServerOnStart && !startInTray)
+            {
+                server new_server = new server();
+                new_server.Show();
+                new_server.StartServer();
+                this.ShowInTaskbar = false;
+                this.Hide();
+            }
+            else if (!bootServerOnStart && startInTray)
+            {
+                EnterTray();
             }
         }
 
@@ -61,11 +76,6 @@ namespace TrollCMD
             base.OnFormClosing(e);
         }
 
-        private void ni_trayIcon_MouseDoubleClick(object sender, MouseEventArgs e)
-        {
-            ExitTray();
-        }
-
         private void btn_exit_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -76,6 +86,7 @@ namespace TrollCMD
             EnterTray();
         }
 
+        #region Tray
         private void EnterTray()
         {
             this.WindowState = FormWindowState.Minimized;
@@ -89,6 +100,12 @@ namespace TrollCMD
             this.ShowInTaskbar = true;
             ni_trayIcon.Visible = false;
         }
+
+        private void ni_trayIcon_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            ExitTray();
+        }
+        #endregion
 
         private void cb_startInTray_CheckedChanged(object sender, EventArgs e)
         {
