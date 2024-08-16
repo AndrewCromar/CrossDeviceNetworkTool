@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "D:\\Programming\\Winforms\\TrollCMD\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|d:\\programming\\winforms\\trollcmd\\trollcmd\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|solutionrelative:trollcmd\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|D:\\Programming\\Winforms\\TrollCMD\\trollcmd\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|solutionrelative:trollcmd\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|d:\\programming\\winforms\\trollcmd\\trollcmd\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|solutionrelative:trollcmd\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|d:\\programming\\winforms\\trollcmd\\trollcmd\\audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|solutionrelative:trollcmd\\audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|D:\\Programming\\Winforms\\TrollCMD\\trollcmd\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|solutionrelative:trollcmd\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|d:\\programming\\winforms\\trollcmd\\trollcmd\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|solutionrelative:trollcmd\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|d:\\programming\\winforms\\trollcmd\\trollcmd\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|solutionrelative:trollcmd\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|d:\\programming\\winforms\\trollcmd\\trollcmd\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|solutionrelative:trollcmd\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|d:\\programming\\winforms\\trollcmd\\trollcmd\\audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|solutionrelative:trollcmd\\audioplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1B5F18E-F36F-4B31-9F62-32E23505DCE6}|TrollCMD\\TrollCMD.csproj|D:\\Programming\\Winforms\\TrollCMD\\trollcmd\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
@@ -49,10 +49,6 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "TrollCMD",
@@ -65,7 +61,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "start.cs",
               "DocumentMoniker": "D:\\Programming\\Winforms\\TrollCMD\\TrollCMD\\start.cs",
               "RelativeDocumentMoniker": "TrollCMD\\start.cs",
@@ -78,33 +74,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "server.cs",
               "DocumentMoniker": "D:\\Programming\\Winforms\\TrollCMD\\TrollCMD\\server.cs",
               "RelativeDocumentMoniker": "TrollCMD\\server.cs",
               "ToolTip": "D:\\Programming\\Winforms\\TrollCMD\\TrollCMD\\server.cs",
               "RelativeToolTip": "TrollCMD\\server.cs",
-              "ViewState": "AgIAAKMAAAAAAAAAAAAcwLoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAqwH0AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-15T01:07:15.546Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "client.cs",
               "DocumentMoniker": "D:\\Programming\\Winforms\\TrollCMD\\TrollCMD\\client.cs",
               "RelativeDocumentMoniker": "TrollCMD\\client.cs",
               "ToolTip": "D:\\Programming\\Winforms\\TrollCMD\\TrollCMD\\client.cs",
               "RelativeToolTip": "TrollCMD\\client.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAcwJkAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAA4wL4AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-15T01:17:57.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "AudioPlayer.cs",
               "DocumentMoniker": "D:\\Programming\\Winforms\\TrollCMD\\TrollCMD\\AudioPlayer.cs",
               "RelativeDocumentMoniker": "TrollCMD\\AudioPlayer.cs",
@@ -113,6 +109,10 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-15T22:49:44.775Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
@@ -138,27 +138,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "server.cs [Design]",
               "DocumentMoniker": "D:\\Programming\\Winforms\\TrollCMD\\TrollCMD\\server.cs",
               "RelativeDocumentMoniker": "TrollCMD\\server.cs",
               "ToolTip": "D:\\Programming\\Winforms\\TrollCMD\\TrollCMD\\server.cs [Design]",
               "RelativeToolTip": "TrollCMD\\server.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T22:09:07.461Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-08-15T22:09:07.461Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "client.cs [Design]",
               "DocumentMoniker": "D:\\Programming\\Winforms\\TrollCMD\\TrollCMD\\client.cs",
               "RelativeDocumentMoniker": "TrollCMD\\client.cs",
               "ToolTip": "D:\\Programming\\Winforms\\TrollCMD\\TrollCMD\\client.cs [Design]",
               "RelativeToolTip": "TrollCMD\\client.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T23:31:37.802Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-08-15T23:31:37.802Z"
             }
           ]
         }

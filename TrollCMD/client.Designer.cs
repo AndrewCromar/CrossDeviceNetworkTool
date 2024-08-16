@@ -55,8 +55,14 @@
             btn_fart = new Button();
             t_outputScroller = new System.Windows.Forms.Timer(components);
             btn_clearOutput = new Button();
+            gb_server = new GroupBox();
+            btn_shutdownServer = new Button();
+            gb_links = new GroupBox();
+            btn_rickRoll = new Button();
             gb_ips.SuspendLayout();
             gb_sounds.SuspendLayout();
+            gb_server.SuspendLayout();
+            gb_links.SuspendLayout();
             SuspendLayout();
             // 
             // txt_port
@@ -163,7 +169,7 @@
             // 
             gb_ips.Controls.Add(btn_andrewDesktopIp);
             gb_ips.Controls.Add(btn_cromarDesktopIp);
-            gb_ips.Location = new Point(387, 6);
+            gb_ips.Location = new Point(387, 64);
             gb_ips.Name = "gb_ips";
             gb_ips.Size = new Size(147, 81);
             gb_ips.TabIndex = 15;
@@ -185,14 +191,14 @@
             gb_sounds.Controls.Add(btn_fart);
             gb_sounds.Location = new Point(12, 299);
             gb_sounds.Name = "gb_sounds";
-            gb_sounds.Size = new Size(776, 139);
+            gb_sounds.Size = new Size(378, 139);
             gb_sounds.TabIndex = 16;
             gb_sounds.TabStop = false;
             gb_sounds.Text = "Sounds Effects";
             // 
             // btn_uwu
             // 
-            btn_uwu.Location = new Point(198, 51);
+            btn_uwu.Location = new Point(198, 80);
             btn_uwu.Name = "btn_uwu";
             btn_uwu.Size = new Size(75, 23);
             btn_uwu.TabIndex = 10;
@@ -202,7 +208,7 @@
             // 
             // btn_bluetoothDevice
             // 
-            btn_bluetoothDevice.Location = new Point(87, 51);
+            btn_bluetoothDevice.Location = new Point(87, 80);
             btn_bluetoothDevice.Name = "btn_bluetoothDevice";
             btn_bluetoothDevice.Size = new Size(105, 23);
             btn_bluetoothDevice.TabIndex = 9;
@@ -212,7 +218,7 @@
             // 
             // btn_rizz
             // 
-            btn_rizz.Location = new Point(6, 51);
+            btn_rizz.Location = new Point(6, 80);
             btn_rizz.Name = "btn_rizz";
             btn_rizz.Size = new Size(75, 23);
             btn_rizz.TabIndex = 8;
@@ -222,7 +228,7 @@
             // 
             // btn_huhCat
             // 
-            btn_huhCat.Location = new Point(562, 22);
+            btn_huhCat.Location = new Point(188, 51);
             btn_huhCat.Name = "btn_huhCat";
             btn_huhCat.Size = new Size(75, 23);
             btn_huhCat.TabIndex = 7;
@@ -232,7 +238,7 @@
             // 
             // btn_huhAsain
             // 
-            btn_huhAsain.Location = new Point(481, 22);
+            btn_huhAsain.Location = new Point(112, 51);
             btn_huhAsain.Name = "btn_huhAsain";
             btn_huhAsain.Size = new Size(75, 23);
             btn_huhAsain.TabIndex = 6;
@@ -242,7 +248,7 @@
             // 
             // btn_goofyAhhCarHorn
             // 
-            btn_goofyAhhCarHorn.Location = new Point(375, 22);
+            btn_goofyAhhCarHorn.Location = new Point(6, 51);
             btn_goofyAhhCarHorn.Name = "btn_goofyAhhCarHorn";
             btn_goofyAhhCarHorn.Size = new Size(100, 23);
             btn_goofyAhhCarHorn.TabIndex = 5;
@@ -282,7 +288,7 @@
             // 
             // btn_metalPipe
             // 
-            btn_metalPipe.Location = new Point(643, 22);
+            btn_metalPipe.Location = new Point(269, 51);
             btn_metalPipe.Name = "btn_metalPipe";
             btn_metalPipe.Size = new Size(75, 23);
             btn_metalPipe.TabIndex = 1;
@@ -316,12 +322,54 @@
             btn_clearOutput.UseVisualStyleBackColor = true;
             btn_clearOutput.Click += btn_clearOutput_Click;
             // 
+            // gb_server
+            // 
+            gb_server.Controls.Add(btn_shutdownServer);
+            gb_server.Location = new Point(387, 6);
+            gb_server.Name = "gb_server";
+            gb_server.Size = new Size(147, 52);
+            gb_server.TabIndex = 16;
+            gb_server.TabStop = false;
+            gb_server.Text = "Server";
+            // 
+            // btn_shutdownServer
+            // 
+            btn_shutdownServer.Location = new Point(6, 22);
+            btn_shutdownServer.Name = "btn_shutdownServer";
+            btn_shutdownServer.Size = new Size(135, 23);
+            btn_shutdownServer.TabIndex = 13;
+            btn_shutdownServer.Text = "Shutdown Server";
+            btn_shutdownServer.UseVisualStyleBackColor = true;
+            btn_shutdownServer.Click += btn_shutdownServer_Click;
+            // 
+            // gb_links
+            // 
+            gb_links.Controls.Add(btn_rickRoll);
+            gb_links.Location = new Point(396, 299);
+            gb_links.Name = "gb_links";
+            gb_links.Size = new Size(235, 139);
+            gb_links.TabIndex = 18;
+            gb_links.TabStop = false;
+            gb_links.Text = "Links";
+            // 
+            // btn_rickRoll
+            // 
+            btn_rickRoll.Location = new Point(6, 22);
+            btn_rickRoll.Name = "btn_rickRoll";
+            btn_rickRoll.Size = new Size(75, 23);
+            btn_rickRoll.TabIndex = 0;
+            btn_rickRoll.Text = "Rick Roll";
+            btn_rickRoll.UseVisualStyleBackColor = true;
+            btn_rickRoll.Click += btn_rickRoll_Click;
+            // 
             // client
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             ControlBox = false;
+            Controls.Add(gb_links);
+            Controls.Add(gb_server);
             Controls.Add(btn_clearOutput);
             Controls.Add(gb_sounds);
             Controls.Add(gb_ips);
@@ -340,6 +388,8 @@
             Load += client_Load;
             gb_ips.ResumeLayout(false);
             gb_sounds.ResumeLayout(false);
+            gb_server.ResumeLayout(false);
+            gb_links.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -372,5 +422,9 @@
         private Button btn_uwu;
         private System.Windows.Forms.Timer t_outputScroller;
         private Button btn_clearOutput;
+        private GroupBox gb_server;
+        private Button btn_shutdownServer;
+        private GroupBox gb_links;
+        private Button btn_rickRoll;
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrollCMD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b4acd35b67c097d3be30ff68273e9aa8afe603e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b1d45c4433753d20710c9b492cee9426a735daf")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrollCMD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrollCMD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

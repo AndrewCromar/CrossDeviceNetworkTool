@@ -54,7 +54,7 @@ namespace TrollCMD
 
         private void btx_send_Click(object sender, EventArgs e)
         {
-            txt_output.Text += "\n Sending command: \"" + txt_input.Text + "\"\n > Waiting for responce...";
+            txt_output.Text += "\n\n Sending command: \"" + txt_input.Text + "\"\n > Waiting for responce...";
             tcp_client.WriteLineAndGetReply(txt_input.Text, TimeSpan.FromMilliseconds(100));
         }
 
@@ -80,8 +80,15 @@ namespace TrollCMD
         #region sfx
         private void CommandSoundEffect(string soundEffect)
         {
-            txt_output.Text += "\n Sending command: \" sfx " + soundEffect + "\"\n > Waiting for responce...";
-            tcp_client.WriteLineAndGetReply("sfx " + soundEffect, TimeSpan.FromMilliseconds(100));
+            txt_output.Text += "\n Sending command: \"sfx " + soundEffect + "\"\n > Waiting for responce...";
+            try
+            {
+                tcp_client.WriteLineAndGetReply("sfx " + soundEffect, TimeSpan.FromMilliseconds(100));
+            }
+            catch (Exception ex)
+            {
+                txt_output.Text += "\n > Error: " + ex.ToString();
+            }
         }
 
         private void btn_knocking_Click(object sender, EventArgs e)
@@ -153,5 +160,38 @@ namespace TrollCMD
         {
             txt_output.Clear();
         }
+
+        private void btn_shutdownServer_Click(object sender, EventArgs e)
+        {
+            txt_output.Text += "\n Sending command: \"server shutdown\"\n > Waiting for responce...";
+            try
+            {
+                tcp_client.WriteLineAndGetReply("server shutdown", TimeSpan.FromMilliseconds(100));
+            }
+            catch (Exception ex)
+            {
+                txt_output.Text += "\n > Error: " + ex.ToString();
+            }
+        }
+
+        #region web
+        private void CommandOpenLink(string link)
+        {
+            txt_output.Text += "\n Sending command: \"web " + link + "\"\n > Waiting for responce...";
+            try
+            {
+                tcp_client.WriteLineAndGetReply("web " + link, TimeSpan.FromMilliseconds(100));
+            }
+            catch (Exception ex)
+            {
+                txt_output.Text += "\n > Error: " + ex.ToString();
+            }
+        }
+
+        private void btn_rickRoll_Click(object sender, EventArgs e)
+        {
+            CommandOpenLink("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+        }
+        #endregion
     }
 }

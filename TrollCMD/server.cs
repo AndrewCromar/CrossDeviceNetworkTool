@@ -13,6 +13,8 @@ using System.Net;
 using WMPLib;
 using System.Media;
 using System.Runtime.InteropServices;
+using System.Diagnostics;
+using System.Security.Policy;
 
 namespace TrollCMD
 {
@@ -107,6 +109,25 @@ namespace TrollCMD
                 catch (Exception ex)
                 {
                     return "Error: " + ex.ToString();
+                }
+            }
+
+            if(commandName == "web")
+            {
+                string url = arguments;
+                try
+                {
+                    Process.Start(new ProcessStartInfo
+                    {
+                        FileName = url,
+                        UseShellExecute = true
+                    });
+
+                    return "Opened link: \"" + url + "\".";
+                }
+                catch (Exception ex)
+                {
+                    return "Error running command: " + ex.ToString();
                 }
             }
 
