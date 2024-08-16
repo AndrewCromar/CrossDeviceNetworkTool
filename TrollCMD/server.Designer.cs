@@ -39,6 +39,8 @@
             txt_output = new RichTextBox();
             btn_menu = new Button();
             ni_trayIcon = new NotifyIcon(components);
+            t_outputScroller = new System.Windows.Forms.Timer(components);
+            btn_clearOutput = new Button();
             SuspendLayout();
             // 
             // btn_start
@@ -99,6 +101,7 @@
             // 
             txt_output.Location = new Point(12, 35);
             txt_output.Name = "txt_output";
+            txt_output.ReadOnly = true;
             txt_output.Size = new Size(450, 305);
             txt_output.TabIndex = 6;
             txt_output.Text = "";
@@ -119,12 +122,29 @@
             ni_trayIcon.Text = "TrollCMD - AndrewCromar";
             ni_trayIcon.MouseDoubleClick += ni_trayIcon_MouseDoubleClick;
             // 
+            // t_outputScroller
+            // 
+            t_outputScroller.Enabled = true;
+            t_outputScroller.Interval = 10;
+            t_outputScroller.Tick += t_outputScroller_Tick;
+            // 
+            // btn_clearOutput
+            // 
+            btn_clearOutput.Location = new Point(12, 346);
+            btn_clearOutput.Name = "btn_clearOutput";
+            btn_clearOutput.Size = new Size(85, 23);
+            btn_clearOutput.TabIndex = 7;
+            btn_clearOutput.Text = "Clear Output";
+            btn_clearOutput.UseVisualStyleBackColor = true;
+            btn_clearOutput.Click += btn_clearOutput_Click;
+            // 
             // server
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             ControlBox = false;
+            Controls.Add(btn_clearOutput);
             Controls.Add(btn_menu);
             Controls.Add(txt_output);
             Controls.Add(btn_stop);
@@ -152,5 +172,7 @@
         private RichTextBox txt_output;
         private Button btn_menu;
         private NotifyIcon ni_trayIcon;
+        private System.Windows.Forms.Timer t_outputScroller;
+        private Button btn_clearOutput;
     }
 }

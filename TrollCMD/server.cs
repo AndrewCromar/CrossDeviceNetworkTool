@@ -12,11 +12,18 @@ using System.Windows.Forms;
 using System.Net;
 using WMPLib;
 using System.Media;
+using System.Runtime.InteropServices;
 
 namespace TrollCMD
 {
     public partial class server : Form
     {
+        [DllImport("user32.dll")]
+        private static extern IntPtr SendMessage(IntPtr hWnd, int Msg, IntPtr wParam, IntPtr lParam);
+
+        private const int WM_VSCROLL = 0x0115;
+        private const int SB_BOTTOM = 7;
+
         public server()
         {
             InitializeComponent();
@@ -89,13 +96,17 @@ namespace TrollCMD
 
             if (commandName == "sfx")
             {
-                if (arguments == "fart")
+                try
                 {
-                    string relativePath = @"fart.wav";
+                    string relativePath = @"sounds/" + arguments;
                     SoundPlayer simpleSound = new SoundPlayer(relativePath);
                     simpleSound.Play();
 
-                    return "Sucess: Played fart sound.";
+                    return "Sucess: Played sound: " + arguments;
+                }
+                catch (Exception ex)
+                {
+                    return "Error: " + ex.ToString();
                 }
             }
 
@@ -159,5 +170,20 @@ namespace TrollCMD
             ExitTray();
         }
         #endregion
+
+        private void t_outputScroller_Tick(object sender, EventArgs e)
+        {
+            ScrollToBottomUsingAPI(txt_output);
+        }
+
+        private void ScrollToBottomUsingAPI(RichTextBox richTextBox)
+        {
+            SendMessage(richTextBox.Handle, WM_VSCROLL, (IntPtr)SB_BOTTOM, IntPtr.Zero);
+        }
+
+        private void btn_clearOutput_Click(object sender, EventArgs e)
+        {
+            txt_output.Clear();
+        }
     }
 }

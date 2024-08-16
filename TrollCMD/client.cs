@@ -6,6 +6,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Net.Sockets;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -14,6 +15,12 @@ namespace TrollCMD
 {
     public partial class client : Form
     {
+        [DllImport("user32.dll")]
+        private static extern IntPtr SendMessage(IntPtr hWnd, int Msg, IntPtr wParam, IntPtr lParam);
+
+        private const int WM_VSCROLL = 0x0115;
+        private const int SB_BOTTOM = 7;
+
         public client()
         {
             InitializeComponent();
@@ -68,6 +75,83 @@ namespace TrollCMD
         private void btn_cromarDesktopIp_Click(object sender, EventArgs e)
         {
             txt_host.Text = Properties.Settings.Default.cromarDesktopIp;
+        }
+
+        #region sfx
+        private void CommandSoundEffect(string soundEffect)
+        {
+            txt_output.Text += "\n Sending command: \" sfx " + soundEffect + "\"\n > Waiting for responce...";
+            tcp_client.WriteLineAndGetReply("sfx " + soundEffect, TimeSpan.FromMilliseconds(100));
+        }
+
+        private void btn_knocking_Click(object sender, EventArgs e)
+        {
+            CommandSoundEffect("crazy-realistic-knocking-sound-troll-twitch-streamers_small.wav");
+        }
+        private void btn_fart_Click(object sender, EventArgs e)
+        {
+            CommandSoundEffect("fart.wav");
+        }
+
+        private void btn_femaleScream_Click(object sender, EventArgs e)
+        {
+            CommandSoundEffect("female-startled-scream.wav");
+        }
+
+        private void btn_galaxyMeme_Click(object sender, EventArgs e)
+        {
+            CommandSoundEffect("galaxy-meme.wav");
+        }
+
+        private void btn_goofyAhhCarHorn_Click(object sender, EventArgs e)
+        {
+            CommandSoundEffect("goofy-ahh-car-horn-sound-effect.wav");
+        }
+
+        private void btn_huhAsain_Click(object sender, EventArgs e)
+        {
+            CommandSoundEffect("huh_asian.wav");
+        }
+
+        private void btn_huhCat_Click(object sender, EventArgs e)
+        {
+            CommandSoundEffect("huh-cat.wav");
+        }
+
+        private void btn_metalPipe_Click(object sender, EventArgs e)
+        {
+            CommandSoundEffect("metal-pipe-clang.wav");
+        }
+
+        private void btn_rizz_Click(object sender, EventArgs e)
+        {
+            CommandSoundEffect("rizz-sound-effect.wav");
+        }
+
+        private void btn_bluetoothDevice_Click(object sender, EventArgs e)
+        {
+            CommandSoundEffect("the-bluetooth-device-is-ready-to-pair.wav");
+        }
+
+        private void btn_uwu_Click(object sender, EventArgs e)
+        {
+            CommandSoundEffect("youtube-uwuuuuu.wav");
+        }
+        #endregion
+
+        private void t_outputScroller_Tick(object sender, EventArgs e)
+        {
+            ScrollToBottomUsingAPI(txt_output);
+        }
+
+        private void ScrollToBottomUsingAPI(RichTextBox richTextBox)
+        {
+            SendMessage(richTextBox.Handle, WM_VSCROLL, (IntPtr)SB_BOTTOM, IntPtr.Zero);
+        }
+
+        private void btn_clearOutput_Click(object sender, EventArgs e)
+        {
+            txt_output.Clear();
         }
     }
 }
