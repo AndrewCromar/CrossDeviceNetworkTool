@@ -32,3 +32,5 @@ D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\NAudio.Midi.d
 D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\NAudio.Wasapi.dll
 D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\NAudio.WinForms.dll
 D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\NAudio.WinMM.dll
+D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\AudioSwitcher.AudioApi.dll
+D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\AudioSwitcher.AudioApi.CoreAudio.dll

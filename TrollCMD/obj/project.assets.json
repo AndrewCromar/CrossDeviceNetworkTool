@@ -2,6 +2,27 @@
   "version": 3,
   "targets": {
     "net8.0-windows7.0": {
+      "AudioSwitcher.AudioApi/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/AudioSwitcher.AudioApi.dll": {}
+        },
+        "runtime": {
+          "lib/net40/AudioSwitcher.AudioApi.dll": {}
+        }
+      },
+      "AudioSwitcher.AudioApi.CoreAudio/3.0.3": {
+        "type": "package",
+        "dependencies": {
+          "AudioSwitcher.AudioApi": "3.0.0"
+        },
+        "compile": {
+          "lib/net452/AudioSwitcher.AudioApi.CoreAudio.dll": {}
+        },
+        "runtime": {
+          "lib/net452/AudioSwitcher.AudioApi.CoreAudio.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/3.1.0": {
         "type": "package",
         "compile": {
@@ -215,6 +236,33 @@
     }
   },
   "libraries": {
+    "AudioSwitcher.AudioApi/3.0.0": {
+      "sha512": "AiYO8fCawsu/v6rZgDWta55GYzh9vs/FocW9xKhEGF3xsUJIgPaVsWeeBwoexMttueW6E8RS0Vp0o8w8dodjyQ==",
+      "type": "package",
+      "path": "audioswitcher.audioapi/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "audioswitcher.audioapi.3.0.0.nupkg.sha512",
+        "audioswitcher.audioapi.nuspec",
+        "lib/net40/AudioSwitcher.AudioApi.dll"
+      ]
+    },
+    "AudioSwitcher.AudioApi.CoreAudio/3.0.3": {
+      "sha512": "O0XrFLuND0Ti/UmW24PvX36Tfhify6jOBpuIKw0wmWemzKQ6fS1uH36a+bNRny9LdqPGIQnFfDyieLo1otb/Lw==",
+      "type": "package",
+      "path": "audioswitcher.audioapi.coreaudio/3.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "audioswitcher.audioapi.coreaudio.3.0.3.nupkg.sha512",
+        "audioswitcher.audioapi.coreaudio.nuspec",
+        "lib/net40/AudioSwitcher.AudioApi.CoreAudio.dll",
+        "lib/net452/AudioSwitcher.AudioApi.CoreAudio.dll",
+        "lib/net472/AudioSwitcher.AudioApi.CoreAudio.dll",
+        "lib/net48/AudioSwitcher.AudioApi.CoreAudio.dll"
+      ]
+    },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "sha512": "z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
       "type": "package",
@@ -504,6 +552,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
+      "AudioSwitcher.AudioApi.CoreAudio >= 3.0.3",
       "NAudio >= 2.2.1",
       "SimpleTCP >= 1.0.24"
     ]
@@ -552,6 +601,10 @@
       "net8.0-windows7.0": {
         "targetAlias": "net8.0-windows",
         "dependencies": {
+          "AudioSwitcher.AudioApi.CoreAudio": {
+            "target": "Package",
+            "version": "[3.0.3, )"
+          },
           "NAudio": {
             "target": "Package",
             "version": "[2.2.1, )"
@@ -585,6 +638,26 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AudioSwitcher.AudioApi 3.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AudioSwitcher.AudioApi",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AudioSwitcher.AudioApi.CoreAudio 3.0.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AudioSwitcher.AudioApi.CoreAudio",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

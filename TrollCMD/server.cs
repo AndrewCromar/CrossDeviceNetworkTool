@@ -16,6 +16,7 @@ using System.Runtime.InteropServices;
 using System.Diagnostics;
 using System.Security.Policy;
 using System.Security.Cryptography;
+using AudioSwitcher.AudioApi.CoreAudio;
 
 namespace TrollCMD
 {
@@ -155,6 +156,41 @@ namespace TrollCMD
                 catch (Exception ex)
                 {
                     return "Error parsing arguments: " + ex.Message;
+                }
+            }
+
+            if (commandName == "volume")
+            {
+                CoreAudioDevice defaultPlaybackDevice = new CoreAudioController().DefaultPlaybackDevice;
+                if(arguments == "getmute")
+                {
+                    return "Mute is currently set to: " + (defaultPlaybackDevice.IsMuted ? "Muted" : "Unmuted");
+                }
+                if (arguments == "togglemute")
+                {
+                    bool newMuteState = defaultPlaybackDevice.ToggleMute();
+                    return "Success: Toggled mute to: " + (newMuteState ? "Muted" : "Unmuted");
+                }
+                else
+                {
+                    Debug.WriteLine("Current Volume: " + defaultPlaybackDevice.Volume);
+
+                    if (int.TryParse(arguments, out int volume))
+                    {
+                        if (volume >= 0 && volume <= 100)
+                        {
+                            defaultPlaybackDevice.Volume = volume;
+                            return "Success: Set volume to: " + volume;
+                        }
+                        else
+                        {
+                            return "Error: Volume must be between 0 and 100.";
+                        }
+                    }
+                    else
+                    {
+                        return "Error: Could not parse: \"" + arguments + "\" to an int.";
+                    }
                 }
             }
 
