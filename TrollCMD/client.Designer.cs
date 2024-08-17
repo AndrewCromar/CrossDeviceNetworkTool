@@ -41,28 +41,17 @@
             btn_andrewDesktopIp = new Button();
             btn_cromarDesktopIp = new Button();
             gb_ips = new GroupBox();
-            gb_sounds = new GroupBox();
-            btn_uwu = new Button();
-            btn_bluetoothDevice = new Button();
-            btn_rizz = new Button();
-            btn_huhCat = new Button();
-            btn_huhAsain = new Button();
-            btn_goofyAhhCarHorn = new Button();
-            btn_galaxyMeme = new Button();
-            btn_femaleScream = new Button();
-            btn_knocking = new Button();
-            btn_metalPipe = new Button();
-            btn_fart = new Button();
             t_outputScroller = new System.Windows.Forms.Timer(components);
             btn_clearOutput = new Button();
             gb_server = new GroupBox();
             btn_shutdownServer = new Button();
-            gb_links = new GroupBox();
-            btn_rickRoll = new Button();
+            cb_soundeffects = new ComboBox();
+            lbl_soundEffects = new Label();
+            lbl_links = new Label();
+            cb_links = new ComboBox();
+            btn_minimize = new Button();
             gb_ips.SuspendLayout();
-            gb_sounds.SuspendLayout();
             gb_server.SuspendLayout();
-            gb_links.SuspendLayout();
             SuspendLayout();
             // 
             // txt_port
@@ -137,11 +126,11 @@
             // 
             // btn_menu
             // 
-            btn_menu.Location = new Point(713, 6);
+            btn_menu.Location = new Point(736, 12);
             btn_menu.Name = "btn_menu";
-            btn_menu.Size = new Size(75, 23);
+            btn_menu.Size = new Size(23, 23);
             btn_menu.TabIndex = 1;
-            btn_menu.Text = "Menu";
+            btn_menu.Text = "←";
             btn_menu.UseVisualStyleBackColor = true;
             btn_menu.Click += btn_menu_Click;
             // 
@@ -175,136 +164,6 @@
             gb_ips.TabIndex = 15;
             gb_ips.TabStop = false;
             gb_ips.Text = "IP Presets";
-            // 
-            // gb_sounds
-            // 
-            gb_sounds.Controls.Add(btn_uwu);
-            gb_sounds.Controls.Add(btn_bluetoothDevice);
-            gb_sounds.Controls.Add(btn_rizz);
-            gb_sounds.Controls.Add(btn_huhCat);
-            gb_sounds.Controls.Add(btn_huhAsain);
-            gb_sounds.Controls.Add(btn_goofyAhhCarHorn);
-            gb_sounds.Controls.Add(btn_galaxyMeme);
-            gb_sounds.Controls.Add(btn_femaleScream);
-            gb_sounds.Controls.Add(btn_knocking);
-            gb_sounds.Controls.Add(btn_metalPipe);
-            gb_sounds.Controls.Add(btn_fart);
-            gb_sounds.Location = new Point(12, 299);
-            gb_sounds.Name = "gb_sounds";
-            gb_sounds.Size = new Size(378, 139);
-            gb_sounds.TabIndex = 16;
-            gb_sounds.TabStop = false;
-            gb_sounds.Text = "Sounds Effects";
-            // 
-            // btn_uwu
-            // 
-            btn_uwu.Location = new Point(198, 80);
-            btn_uwu.Name = "btn_uwu";
-            btn_uwu.Size = new Size(75, 23);
-            btn_uwu.TabIndex = 10;
-            btn_uwu.Text = "UWU";
-            btn_uwu.UseVisualStyleBackColor = true;
-            btn_uwu.Click += btn_uwu_Click;
-            // 
-            // btn_bluetoothDevice
-            // 
-            btn_bluetoothDevice.Location = new Point(87, 80);
-            btn_bluetoothDevice.Name = "btn_bluetoothDevice";
-            btn_bluetoothDevice.Size = new Size(105, 23);
-            btn_bluetoothDevice.TabIndex = 9;
-            btn_bluetoothDevice.Text = "Bluetooth Device";
-            btn_bluetoothDevice.UseVisualStyleBackColor = true;
-            btn_bluetoothDevice.Click += btn_bluetoothDevice_Click;
-            // 
-            // btn_rizz
-            // 
-            btn_rizz.Location = new Point(6, 80);
-            btn_rizz.Name = "btn_rizz";
-            btn_rizz.Size = new Size(75, 23);
-            btn_rizz.TabIndex = 8;
-            btn_rizz.Text = "Rizz";
-            btn_rizz.UseVisualStyleBackColor = true;
-            btn_rizz.Click += btn_rizz_Click;
-            // 
-            // btn_huhCat
-            // 
-            btn_huhCat.Location = new Point(188, 51);
-            btn_huhCat.Name = "btn_huhCat";
-            btn_huhCat.Size = new Size(75, 23);
-            btn_huhCat.TabIndex = 7;
-            btn_huhCat.Text = "Huh Cat";
-            btn_huhCat.UseVisualStyleBackColor = true;
-            btn_huhCat.Click += btn_huhCat_Click;
-            // 
-            // btn_huhAsain
-            // 
-            btn_huhAsain.Location = new Point(112, 51);
-            btn_huhAsain.Name = "btn_huhAsain";
-            btn_huhAsain.Size = new Size(75, 23);
-            btn_huhAsain.TabIndex = 6;
-            btn_huhAsain.Text = "Huh Asian";
-            btn_huhAsain.UseVisualStyleBackColor = true;
-            btn_huhAsain.Click += btn_huhAsain_Click;
-            // 
-            // btn_goofyAhhCarHorn
-            // 
-            btn_goofyAhhCarHorn.Location = new Point(6, 51);
-            btn_goofyAhhCarHorn.Name = "btn_goofyAhhCarHorn";
-            btn_goofyAhhCarHorn.Size = new Size(100, 23);
-            btn_goofyAhhCarHorn.TabIndex = 5;
-            btn_goofyAhhCarHorn.Text = "Goofy Ahh Car Horn";
-            btn_goofyAhhCarHorn.UseVisualStyleBackColor = true;
-            btn_goofyAhhCarHorn.Click += btn_goofyAhhCarHorn_Click;
-            // 
-            // btn_galaxyMeme
-            // 
-            btn_galaxyMeme.Location = new Point(274, 22);
-            btn_galaxyMeme.Name = "btn_galaxyMeme";
-            btn_galaxyMeme.Size = new Size(95, 23);
-            btn_galaxyMeme.TabIndex = 4;
-            btn_galaxyMeme.Text = "Galaxy Meme";
-            btn_galaxyMeme.UseVisualStyleBackColor = true;
-            btn_galaxyMeme.Click += btn_galaxyMeme_Click;
-            // 
-            // btn_femaleScream
-            // 
-            btn_femaleScream.Location = new Point(168, 22);
-            btn_femaleScream.Name = "btn_femaleScream";
-            btn_femaleScream.Size = new Size(100, 23);
-            btn_femaleScream.TabIndex = 3;
-            btn_femaleScream.Text = "Female Scream";
-            btn_femaleScream.UseVisualStyleBackColor = true;
-            btn_femaleScream.Click += btn_femaleScream_Click;
-            // 
-            // btn_knocking
-            // 
-            btn_knocking.Location = new Point(6, 22);
-            btn_knocking.Name = "btn_knocking";
-            btn_knocking.Size = new Size(75, 23);
-            btn_knocking.TabIndex = 2;
-            btn_knocking.Text = "Knocking";
-            btn_knocking.UseVisualStyleBackColor = true;
-            btn_knocking.Click += btn_knocking_Click;
-            // 
-            // btn_metalPipe
-            // 
-            btn_metalPipe.Location = new Point(269, 51);
-            btn_metalPipe.Name = "btn_metalPipe";
-            btn_metalPipe.Size = new Size(75, 23);
-            btn_metalPipe.TabIndex = 1;
-            btn_metalPipe.Text = "Metal Pipe";
-            btn_metalPipe.UseVisualStyleBackColor = true;
-            btn_metalPipe.Click += btn_metalPipe_Click;
-            // 
-            // btn_fart
-            // 
-            btn_fart.Location = new Point(87, 22);
-            btn_fart.Name = "btn_fart";
-            btn_fart.Size = new Size(75, 23);
-            btn_fart.TabIndex = 0;
-            btn_fart.Text = "Fart";
-            btn_fart.UseVisualStyleBackColor = true;
-            btn_fart.Click += btn_fart_Click;
             // 
             // t_outputScroller
             // 
@@ -342,25 +201,52 @@
             btn_shutdownServer.UseVisualStyleBackColor = true;
             btn_shutdownServer.Click += btn_shutdownServer_Click;
             // 
-            // gb_links
+            // cb_soundeffects
             // 
-            gb_links.Controls.Add(btn_rickRoll);
-            gb_links.Location = new Point(396, 299);
-            gb_links.Name = "gb_links";
-            gb_links.Size = new Size(235, 139);
-            gb_links.TabIndex = 18;
-            gb_links.TabStop = false;
-            gb_links.Text = "Links";
+            cb_soundeffects.FormattingEnabled = true;
+            cb_soundeffects.Location = new Point(100, 299);
+            cb_soundeffects.Name = "cb_soundeffects";
+            cb_soundeffects.Size = new Size(281, 23);
+            cb_soundeffects.TabIndex = 19;
+            cb_soundeffects.SelectedIndexChanged += cb_soundeffects_SelectedIndexChanged;
             // 
-            // btn_rickRoll
+            // lbl_soundEffects
             // 
-            btn_rickRoll.Location = new Point(6, 22);
-            btn_rickRoll.Name = "btn_rickRoll";
-            btn_rickRoll.Size = new Size(75, 23);
-            btn_rickRoll.TabIndex = 0;
-            btn_rickRoll.Text = "Rick Roll";
-            btn_rickRoll.UseVisualStyleBackColor = true;
-            btn_rickRoll.Click += btn_rickRoll_Click;
+            lbl_soundEffects.AutoSize = true;
+            lbl_soundEffects.Location = new Point(12, 302);
+            lbl_soundEffects.Name = "lbl_soundEffects";
+            lbl_soundEffects.Size = new Size(82, 15);
+            lbl_soundEffects.TabIndex = 20;
+            lbl_soundEffects.Text = "Sound Effects:";
+            // 
+            // lbl_links
+            // 
+            lbl_links.AutoSize = true;
+            lbl_links.Location = new Point(57, 331);
+            lbl_links.Name = "lbl_links";
+            lbl_links.Size = new Size(37, 15);
+            lbl_links.TabIndex = 22;
+            lbl_links.Text = "Links:";
+            // 
+            // cb_links
+            // 
+            cb_links.FormattingEnabled = true;
+            cb_links.Items.AddRange(new object[] { "https://www.youtube.com/watch?v=dQw4w9WgXcQ" });
+            cb_links.Location = new Point(100, 328);
+            cb_links.Name = "cb_links";
+            cb_links.Size = new Size(281, 23);
+            cb_links.TabIndex = 21;
+            cb_links.SelectedIndexChanged += cb_links_SelectedIndexChanged;
+            // 
+            // btn_minimize
+            // 
+            btn_minimize.Location = new Point(765, 12);
+            btn_minimize.Name = "btn_minimize";
+            btn_minimize.Size = new Size(23, 23);
+            btn_minimize.TabIndex = 23;
+            btn_minimize.Text = "–";
+            btn_minimize.UseVisualStyleBackColor = true;
+            btn_minimize.Click += btn_minimize_Click;
             // 
             // client
             // 
@@ -368,10 +254,13 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             ControlBox = false;
-            Controls.Add(gb_links);
+            Controls.Add(btn_minimize);
+            Controls.Add(lbl_links);
+            Controls.Add(cb_links);
+            Controls.Add(lbl_soundEffects);
+            Controls.Add(cb_soundeffects);
             Controls.Add(gb_server);
             Controls.Add(btn_clearOutput);
-            Controls.Add(gb_sounds);
             Controls.Add(gb_ips);
             Controls.Add(btn_menu);
             Controls.Add(txt_output);
@@ -382,14 +271,13 @@
             Controls.Add(txt_host);
             Controls.Add(lbl_host);
             Controls.Add(btn_connect);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "client";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "client";
             Load += client_Load;
             gb_ips.ResumeLayout(false);
-            gb_sounds.ResumeLayout(false);
             gb_server.ResumeLayout(false);
-            gb_links.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -408,23 +296,14 @@
         private Button btn_andrewDesktopIp;
         private Button btn_cromarDesktopIp;
         private GroupBox gb_ips;
-        private GroupBox gb_sounds;
-        private Button btn_fart;
-        private Button btn_metalPipe;
-        private Button btn_knocking;
-        private Button btn_galaxyMeme;
-        private Button btn_femaleScream;
-        private Button btn_goofyAhhCarHorn;
-        private Button btn_rizz;
-        private Button btn_huhCat;
-        private Button btn_huhAsain;
-        private Button btn_bluetoothDevice;
-        private Button btn_uwu;
         private System.Windows.Forms.Timer t_outputScroller;
         private Button btn_clearOutput;
         private GroupBox gb_server;
         private Button btn_shutdownServer;
-        private GroupBox gb_links;
-        private Button btn_rickRoll;
+        private ComboBox cb_soundeffects;
+        private Label lbl_soundEffects;
+        private Label lbl_links;
+        private ComboBox cb_links;
+        private Button btn_minimize;
     }
 }

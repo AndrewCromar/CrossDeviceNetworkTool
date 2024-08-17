@@ -35,6 +35,29 @@ namespace TrollCMD
             tcp_client = new SimpleTcpClient();
             tcp_client.StringEncoder = Encoding.UTF8;
             tcp_client.DataReceived += Client_DataReceived;
+
+            UpdateSoundEffectBox();
+        }
+
+        private void UpdateSoundEffectBox()
+        {
+            cb_soundeffects.Items.Clear();
+
+            string directoryPath = @"sounds/";
+
+            if (Directory.Exists(directoryPath))
+            {
+                string[] files = Directory.GetFiles(directoryPath);
+
+                foreach (string file in files)
+                {
+                    cb_soundeffects.Items.Add(Path.GetFileName(file));
+                }
+            }
+            else
+            {
+                MessageBox.Show("Directory does not exist.");
+            }
         }
 
         private void Client_DataReceived(object? sender, SimpleTCP.Message e)
@@ -77,83 +100,9 @@ namespace TrollCMD
             txt_host.Text = Properties.Settings.Default.cromarDesktopIp;
         }
 
-        #region sfx
-        private void CommandSoundEffect(string soundEffect)
-        {
-            txt_output.Text += "\n Sending command: \"sfx " + soundEffect + "\"\n > Waiting for responce...";
-            try
-            {
-                tcp_client.WriteLineAndGetReply("sfx " + soundEffect, TimeSpan.FromMilliseconds(100));
-            }
-            catch (Exception ex)
-            {
-                txt_output.Text += "\n > Error: " + ex.ToString();
-            }
-        }
-
-        private void btn_knocking_Click(object sender, EventArgs e)
-        {
-            CommandSoundEffect("crazy-realistic-knocking-sound-troll-twitch-streamers_small.wav");
-        }
-        private void btn_fart_Click(object sender, EventArgs e)
-        {
-            CommandSoundEffect("fart.wav");
-        }
-
-        private void btn_femaleScream_Click(object sender, EventArgs e)
-        {
-            CommandSoundEffect("female-startled-scream.wav");
-        }
-
-        private void btn_galaxyMeme_Click(object sender, EventArgs e)
-        {
-            CommandSoundEffect("galaxy-meme.wav");
-        }
-
-        private void btn_goofyAhhCarHorn_Click(object sender, EventArgs e)
-        {
-            CommandSoundEffect("goofy-ahh-car-horn-sound-effect.wav");
-        }
-
-        private void btn_huhAsain_Click(object sender, EventArgs e)
-        {
-            CommandSoundEffect("huh_asian.wav");
-        }
-
-        private void btn_huhCat_Click(object sender, EventArgs e)
-        {
-            CommandSoundEffect("huh-cat.wav");
-        }
-
-        private void btn_metalPipe_Click(object sender, EventArgs e)
-        {
-            CommandSoundEffect("metal-pipe-clang.wav");
-        }
-
-        private void btn_rizz_Click(object sender, EventArgs e)
-        {
-            CommandSoundEffect("rizz-sound-effect.wav");
-        }
-
-        private void btn_bluetoothDevice_Click(object sender, EventArgs e)
-        {
-            CommandSoundEffect("the-bluetooth-device-is-ready-to-pair.wav");
-        }
-
-        private void btn_uwu_Click(object sender, EventArgs e)
-        {
-            CommandSoundEffect("youtube-uwuuuuu.wav");
-        }
-        #endregion
-
         private void t_outputScroller_Tick(object sender, EventArgs e)
         {
-            ScrollToBottomUsingAPI(txt_output);
-        }
-
-        private void ScrollToBottomUsingAPI(RichTextBox richTextBox)
-        {
-            SendMessage(richTextBox.Handle, WM_VSCROLL, (IntPtr)SB_BOTTOM, IntPtr.Zero);
+            SendMessage(txt_output.Handle, WM_VSCROLL, (IntPtr)SB_BOTTOM, IntPtr.Zero);
         }
 
         private void btn_clearOutput_Click(object sender, EventArgs e)
@@ -163,35 +112,22 @@ namespace TrollCMD
 
         private void btn_shutdownServer_Click(object sender, EventArgs e)
         {
-            txt_output.Text += "\n Sending command: \"server shutdown\"\n > Waiting for responce...";
-            try
-            {
-                tcp_client.WriteLineAndGetReply("server shutdown", TimeSpan.FromMilliseconds(100));
-            }
-            catch (Exception ex)
-            {
-                txt_output.Text += "\n > Error: " + ex.ToString();
-            }
+            txt_input.Text = "server shutdown";
         }
 
-        #region web
-        private void CommandOpenLink(string link)
+        private void cb_soundeffects_SelectedIndexChanged(object sender, EventArgs e)
         {
-            txt_output.Text += "\n Sending command: \"web " + link + "\"\n > Waiting for responce...";
-            try
-            {
-                tcp_client.WriteLineAndGetReply("web " + link, TimeSpan.FromMilliseconds(100));
-            }
-            catch (Exception ex)
-            {
-                txt_output.Text += "\n > Error: " + ex.ToString();
-            }
+            txt_input.Text = "sfx " + cb_soundeffects.Items[cb_soundeffects.SelectedIndex].ToString();
         }
 
-        private void btn_rickRoll_Click(object sender, EventArgs e)
+        private void cb_links_SelectedIndexChanged(object sender, EventArgs e)
         {
-            CommandOpenLink("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+            txt_input.Text = "web " + cb_links.Items[cb_links.SelectedIndex].ToString();
         }
-        #endregion
+
+        private void btn_minimize_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

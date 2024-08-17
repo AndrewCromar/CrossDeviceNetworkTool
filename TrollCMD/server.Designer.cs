@@ -41,6 +41,8 @@
             ni_trayIcon = new NotifyIcon(components);
             t_outputScroller = new System.Windows.Forms.Timer(components);
             btn_clearOutput = new Button();
+            btn_minimize = new Button();
+            btn_tray = new Button();
             SuspendLayout();
             // 
             // btn_start
@@ -108,11 +110,11 @@
             // 
             // btn_menu
             // 
-            btn_menu.Location = new Point(713, 6);
+            btn_menu.Location = new Point(707, 12);
             btn_menu.Name = "btn_menu";
-            btn_menu.Size = new Size(75, 23);
+            btn_menu.Size = new Size(23, 23);
             btn_menu.TabIndex = 1;
-            btn_menu.Text = "Menu";
+            btn_menu.Text = "←";
             btn_menu.UseVisualStyleBackColor = true;
             btn_menu.Click += btn_menu_Click;
             // 
@@ -138,12 +140,34 @@
             btn_clearOutput.UseVisualStyleBackColor = true;
             btn_clearOutput.Click += btn_clearOutput_Click;
             // 
+            // btn_minimize
+            // 
+            btn_minimize.Location = new Point(736, 12);
+            btn_minimize.Name = "btn_minimize";
+            btn_minimize.Size = new Size(23, 23);
+            btn_minimize.TabIndex = 24;
+            btn_minimize.Text = "–";
+            btn_minimize.UseVisualStyleBackColor = true;
+            btn_minimize.Click += btn_minimize_Click;
+            // 
+            // btn_tray
+            // 
+            btn_tray.Location = new Point(765, 12);
+            btn_tray.Name = "btn_tray";
+            btn_tray.Size = new Size(23, 23);
+            btn_tray.TabIndex = 25;
+            btn_tray.Text = "↴";
+            btn_tray.UseVisualStyleBackColor = true;
+            btn_tray.Click += btn_tray_Click;
+            // 
             // server
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             ControlBox = false;
+            Controls.Add(btn_tray);
+            Controls.Add(btn_minimize);
             Controls.Add(btn_clearOutput);
             Controls.Add(btn_menu);
             Controls.Add(txt_output);
@@ -174,5 +198,7 @@
         private NotifyIcon ni_trayIcon;
         private System.Windows.Forms.Timer t_outputScroller;
         private Button btn_clearOutput;
+        private Button btn_minimize;
+        private Button btn_tray;
     }
 }

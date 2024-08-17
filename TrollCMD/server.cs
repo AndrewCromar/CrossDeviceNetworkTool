@@ -15,6 +15,7 @@ using System.Media;
 using System.Runtime.InteropServices;
 using System.Diagnostics;
 using System.Security.Policy;
+using System.Security.Cryptography;
 
 namespace TrollCMD
 {
@@ -112,7 +113,7 @@ namespace TrollCMD
                 }
             }
 
-            if(commandName == "web")
+            if (commandName == "web")
             {
                 string url = arguments;
                 try
@@ -128,6 +129,32 @@ namespace TrollCMD
                 catch (Exception ex)
                 {
                     return "Error running command: " + ex.ToString();
+                }
+            }
+
+            if (commandName == "mousewiggle")
+            {
+                var args = arguments.Split(' ');
+
+                if (args.Length != 3)
+                {
+                    return "Error: mousewiggle command requires 3 arguments: interval, distance, and count.";
+                }
+
+                try
+                {
+                    int interval = int.Parse(args[0]);
+                    int distance = int.Parse(args[1]);
+                    int count = int.Parse(args[2]);
+
+                    var wiggler = new MouseWiggler(interval, count, distance);
+                    wiggler.StartWiggle();
+
+                    return "Success: Mouse wiggling started.";
+                }
+                catch (Exception ex)
+                {
+                    return "Error parsing arguments: " + ex.Message;
                 }
             }
 
@@ -205,6 +232,16 @@ namespace TrollCMD
         private void btn_clearOutput_Click(object sender, EventArgs e)
         {
             txt_output.Clear();
+        }
+
+        private void btn_minimize_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void btn_tray_Click(object sender, EventArgs e)
+        {
+            EnterTray();
         }
     }
 }
