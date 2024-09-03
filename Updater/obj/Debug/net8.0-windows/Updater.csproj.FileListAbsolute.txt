@@ -1,0 +1,17 @@
+D:\Programming\Winforms\CrossDeviceNetworkTool\Updater\bin\Debug\net8.0-windows\Updater.exe
+D:\Programming\Winforms\CrossDeviceNetworkTool\Updater\bin\Debug\net8.0-windows\Updater.deps.json
+D:\Programming\Winforms\CrossDeviceNetworkTool\Updater\bin\Debug\net8.0-windows\Updater.runtimeconfig.json
+D:\Programming\Winforms\CrossDeviceNetworkTool\Updater\bin\Debug\net8.0-windows\Updater.dll
+D:\Programming\Winforms\CrossDeviceNetworkTool\Updater\bin\Debug\net8.0-windows\Updater.pdb
+D:\Programming\Winforms\CrossDeviceNetworkTool\Updater\obj\Debug\net8.0-windows\Updater.updater.resources
+D:\Programming\Winforms\CrossDeviceNetworkTool\Updater\obj\Debug\net8.0-windows\Updater.csproj.GenerateResource.cache
+D:\Programming\Winforms\CrossDeviceNetworkTool\Updater\obj\Debug\net8.0-windows\Updater.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Winforms\CrossDeviceNetworkTool\Updater\obj\Debug\net8.0-windows\Updater.AssemblyInfoInputs.cache
+D:\Programming\Winforms\CrossDeviceNetworkTool\Updater\obj\Debug\net8.0-windows\Updater.AssemblyInfo.cs
+D:\Programming\Winforms\CrossDeviceNetworkTool\Updater\obj\Debug\net8.0-windows\Updater.csproj.CoreCompileInputs.cache
+D:\Programming\Winforms\CrossDeviceNetworkTool\Updater\obj\Debug\net8.0-windows\Updater.sourcelink.json
+D:\Programming\Winforms\CrossDeviceNetworkTool\Updater\obj\Debug\net8.0-windows\Updater.dll
+D:\Programming\Winforms\CrossDeviceNetworkTool\Updater\obj\Debug\net8.0-windows\refint\Updater.dll
+D:\Programming\Winforms\CrossDeviceNetworkTool\Updater\obj\Debug\net8.0-windows\Updater.pdb
+D:\Programming\Winforms\CrossDeviceNetworkTool\Updater\obj\Debug\net8.0-windows\Updater.genruntimeconfig.cache
+D:\Programming\Winforms\CrossDeviceNetworkTool\Updater\obj\Debug\net8.0-windows\ref\Updater.dll

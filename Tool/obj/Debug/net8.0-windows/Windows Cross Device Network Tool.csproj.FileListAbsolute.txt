@@ -1,0 +1,37 @@
+D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\Windows Cross Device Network Tool.csproj.AssemblyReference.cache
+D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\Interop.WMPLib.dll
+D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\Interop.MediaPlayer.dll
+D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\Windows Cross Device Network Tool.csproj.ResolveComReference.cache
+D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\TrollCMD.client.resources
+D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\Windows_Cross_Device_Network_Tool.Properties.Resources.resources
+D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\TrollCMD.server.resources
+D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\TrollCMD.start.resources
+D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\Windows Cross Device Network Tool.csproj.GenerateResource.cache
+D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\Windows Cross Device Network Tool.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\Windows Cross Device Network Tool.AssemblyInfoInputs.cache
+D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\Windows Cross Device Network Tool.AssemblyInfo.cs
+D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\Windows Cross Device Network Tool.csproj.CoreCompileInputs.cache
+D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\Windows Cross Device Network Tool.sourcelink.json
+D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\Windows Cross Device Network Tool.exe
+D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\Windows Cross Device Network Tool.dll.config
+D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\Windows Cross Device Network Tool.deps.json
+D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\Windows Cross Device Network Tool.runtimeconfig.json
+D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\Windows Cross Device Network Tool.dll
+D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\Windows Cross Device Network Tool.pdb
+D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\AudioSwitcher.AudioApi.dll
+D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\AudioSwitcher.AudioApi.CoreAudio.dll
+D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\NAudio.dll
+D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\NAudio.Asio.dll
+D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\NAudio.Core.dll
+D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\NAudio.Midi.dll
+D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\NAudio.Wasapi.dll
+D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\NAudio.WinForms.dll
+D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\NAudio.WinMM.dll
+D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\SimpleTCP.dll
+D:\Programming\Winforms\TrollCMD\TrollCMD\bin\Debug\net8.0-windows\Tulpep.NotificationWindow.dll
+D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\Windows .FB4058C0.Up2Date
+D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\Windows Cross Device Network Tool.dll
+D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\refint\Windows Cross Device Network Tool.dll
+D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\Windows Cross Device Network Tool.pdb
+D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\Windows Cross Device Network Tool.genruntimeconfig.cache
+D:\Programming\Winforms\TrollCMD\TrollCMD\obj\Debug\net8.0-windows\ref\Windows Cross Device Network Tool.dll
