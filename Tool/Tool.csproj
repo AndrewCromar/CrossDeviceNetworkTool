@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
-    <ApplicationIcon>images\onyx_logo_round.ico</ApplicationIcon>
+    <ApplicationIcon>images\crossdevicenetworktool_logo.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -31,7 +31,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="images\onyx_logo_round.ico" />
+    <Content Include="images\crossdevicenetworktool_logo.ico" />
   </ItemGroup>
 
   <ItemGroup>

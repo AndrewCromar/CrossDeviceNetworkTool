@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D604C952-B21A-4E19-B06E-7AAEB8007BFA}|Tool\\Tool.csproj|D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\tool\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D604C952-B21A-4E19-B06E-7AAEB8007BFA}|Tool\\Tool.csproj|solutionrelative:tool\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D604C952-B21A-4E19-B06E-7AAEB8007BFA}|Tool\\Tool.csproj|D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\tool\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D604C952-B21A-4E19-B06E-7AAEB8007BFA}|Tool\\Tool.csproj|solutionrelative:tool\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D604C952-B21A-4E19-B06E-7AAEB8007BFA}|Tool\\Tool.csproj|D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\tool\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D604C952-B21A-4E19-B06E-7AAEB8007BFA}|Tool\\Tool.csproj|solutionrelative:tool\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D90E3A7-428B-48EB-B4BA-56F9505CBC86}|Updater\\Updater.csproj|D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\updater\\updater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2D90E3A7-428B-48EB-B4BA-56F9505CBC86}|Updater\\Updater.csproj|solutionrelative:updater\\updater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2D90E3A7-428B-48EB-B4BA-56F9505CBC86}|Updater\\Updater.csproj|d:\\programming\\winforms\\crossdevicenetworktool\\updater\\updater.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{2D90E3A7-428B-48EB-B4BA-56F9505CBC86}|Updater\\Updater.csproj|solutionrelative:updater\\updater.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
@@ -11,28 +27,20 @@
       "RelativeMoniker": "D:0:0:{D604C952-B21A-4E19-B06E-7AAEB8007BFA}|Tool\\Tool.csproj|solutionrelative:tool\\tool.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D604C952-B21A-4E19-B06E-7AAEB8007BFA}|Tool\\Tool.csproj|D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\tool\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D604C952-B21A-4E19-B06E-7AAEB8007BFA}|Tool\\Tool.csproj|solutionrelative:tool\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D604C952-B21A-4E19-B06E-7AAEB8007BFA}|Tool\\Tool.csproj|D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\tool\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D604C952-B21A-4E19-B06E-7AAEB8007BFA}|Tool\\Tool.csproj|solutionrelative:tool\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D90E3A7-428B-48EB-B4BA-56F9505CBC86}|Updater\\Updater.csproj|D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\updater\\updater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2D90E3A7-428B-48EB-B4BA-56F9505CBC86}|Updater\\Updater.csproj|solutionrelative:updater\\updater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D604C952-B21A-4E19-B06E-7AAEB8007BFA}|Tool\\Tool.csproj|D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\tool\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D604C952-B21A-4E19-B06E-7AAEB8007BFA}|Tool\\Tool.csproj|solutionrelative:tool\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D604C952-B21A-4E19-B06E-7AAEB8007BFA}|Tool\\Tool.csproj|d:\\programming\\winforms\\crossdevicenetworktool\\tool\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D604C952-B21A-4E19-B06E-7AAEB8007BFA}|Tool\\Tool.csproj|solutionrelative:tool\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D604C952-B21A-4E19-B06E-7AAEB8007BFA}|Tool\\Tool.csproj|d:\\programming\\winforms\\crossdevicenetworktool\\tool\\tool.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D604C952-B21A-4E19-B06E-7AAEB8007BFA}|Tool\\Tool.csproj|solutionrelative:tool\\tool.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D604C952-B21A-4E19-B06E-7AAEB8007BFA}|Tool\\Tool.csproj|d:\\programming\\winforms\\crossdevicenetworktool\\tool\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D604C952-B21A-4E19-B06E-7AAEB8007BFA}|Tool\\Tool.csproj|solutionrelative:tool\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D604C952-B21A-4E19-B06E-7AAEB8007BFA}|Tool\\Tool.csproj|d:\\programming\\winforms\\crossdevicenetworktool\\tool\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{D604C952-B21A-4E19-B06E-7AAEB8007BFA}|Tool\\Tool.csproj|solutionrelative:tool\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D604C952-B21A-4E19-B06E-7AAEB8007BFA}|Tool\\Tool.csproj|d:\\programming\\winforms\\crossdevicenetworktool\\tool\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D604C952-B21A-4E19-B06E-7AAEB8007BFA}|Tool\\Tool.csproj|solutionrelative:tool\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D90E3A7-428B-48EB-B4BA-56F9505CBC86}|Updater\\Updater.csproj|d:\\programming\\winforms\\crossdevicenetworktool\\updater\\updater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,11 +62,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "Tool",
+              "DocumentMoniker": "D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\Tool\\Tool.csproj",
+              "RelativeDocumentMoniker": "Tool\\Tool.csproj",
+              "ToolTip": "D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\Tool\\Tool.csproj",
+              "RelativeToolTip": "Tool\\Tool.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-03T14:53:09.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\Tool\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "Tool\\Properties\\Settings.settings",
+              "ToolTip": "D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\Tool\\Properties\\Settings.settings",
+              "RelativeToolTip": "Tool\\Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2024-09-03T14:23:43.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Updater",
               "DocumentMoniker": "D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\Updater\\Updater.csproj",
               "RelativeDocumentMoniker": "Updater\\Updater.csproj",
@@ -70,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Tool",
               "DocumentMoniker": "D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\Tool\\Tool.csproj",
               "RelativeDocumentMoniker": "Tool\\Tool.csproj",
@@ -82,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "build.bat",
               "DocumentMoniker": "D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\build.bat",
               "RelativeDocumentMoniker": "build.bat",
@@ -94,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "start.cs",
               "DocumentMoniker": "D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\Tool\\start.cs",
               "RelativeDocumentMoniker": "Tool\\start.cs",
@@ -107,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "start.cs [Design]",
               "DocumentMoniker": "D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\Tool\\start.cs",
               "RelativeDocumentMoniker": "Tool\\start.cs",
@@ -119,20 +152,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "client.cs",
               "DocumentMoniker": "D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\Tool\\client.cs",
               "RelativeDocumentMoniker": "Tool\\client.cs",
               "ToolTip": "D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\Tool\\client.cs",
               "RelativeToolTip": "Tool\\client.cs",
-              "ViewState": "AgIAAIsAAAAAAAAAAADwv5EAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAgwGQAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-03T03:55:34.264Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "client.cs [Design]",
               "DocumentMoniker": "D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\Tool\\client.cs",
               "RelativeDocumentMoniker": "Tool\\client.cs",
@@ -148,9 +181,9 @@
               "Title": "server.cs",
               "DocumentMoniker": "D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\Tool\\server.cs",
               "RelativeDocumentMoniker": "Tool\\server.cs",
-              "ToolTip": "D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\Tool\\server.cs",
-              "RelativeToolTip": "Tool\\server.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAqAAAAAAAAAA==",
+              "ToolTip": "D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\Tool\\server.cs*",
+              "RelativeToolTip": "Tool\\server.cs*",
+              "ViewState": "AgIAAA4BAAAAAAAAAADwvyMBAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-03T03:54:01.22Z",
               "EditorCaption": ""
@@ -161,15 +194,15 @@
               "Title": "server.cs [Design]",
               "DocumentMoniker": "D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\Tool\\server.cs",
               "RelativeDocumentMoniker": "Tool\\server.cs",
-              "ToolTip": "D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\Tool\\server.cs [Design]",
-              "RelativeToolTip": "Tool\\server.cs [Design]",
+              "ToolTip": "D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\Tool\\server.cs [Design]*",
+              "RelativeToolTip": "Tool\\server.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-03T03:53:57.23Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "updater.cs",
               "DocumentMoniker": "D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\Updater\\updater.cs",
               "RelativeDocumentMoniker": "Updater\\updater.cs",
@@ -182,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "updater.cs [Design]",
               "DocumentMoniker": "D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\Updater\\updater.cs",
               "RelativeDocumentMoniker": "Updater\\updater.cs",
