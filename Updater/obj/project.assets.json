@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\andrew\\.nuget\\packages\\": {}
+    "C:\\Users\\scrom\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\Updater\\Updater.csproj",
+      "projectUniqueName": "C:\\Users\\scrom\\OneDrive\\Desktop\\CrossDeviceNetworkTool\\Updater\\Updater.csproj",
       "projectName": "Updater",
-      "projectPath": "D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\Updater\\Updater.csproj",
-      "packagesPath": "C:\\Users\\andrew\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\Winforms\\CrossDeviceNetworkTool\\Updater\\obj\\",
+      "projectPath": "C:\\Users\\scrom\\OneDrive\\Desktop\\CrossDeviceNetworkTool\\Updater\\Updater.csproj",
+      "packagesPath": "C:\\Users\\scrom\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\scrom\\OneDrive\\Desktop\\CrossDeviceNetworkTool\\Updater\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\scrom\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -69,7 +69,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

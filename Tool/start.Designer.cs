@@ -44,9 +44,10 @@
             // 
             // btn_server
             // 
-            btn_server.Location = new Point(12, 12);
+            btn_server.Location = new Point(14, 16);
+            btn_server.Margin = new Padding(3, 4, 3, 4);
             btn_server.Name = "btn_server";
-            btn_server.Size = new Size(75, 23);
+            btn_server.Size = new Size(86, 31);
             btn_server.TabIndex = 0;
             btn_server.Text = "Server";
             btn_server.UseVisualStyleBackColor = true;
@@ -54,9 +55,10 @@
             // 
             // btn_client
             // 
-            btn_client.Location = new Point(12, 41);
+            btn_client.Location = new Point(14, 55);
+            btn_client.Margin = new Padding(3, 4, 3, 4);
             btn_client.Name = "btn_client";
-            btn_client.Size = new Size(75, 23);
+            btn_client.Size = new Size(86, 31);
             btn_client.TabIndex = 1;
             btn_client.Text = "Client";
             btn_client.UseVisualStyleBackColor = true;
@@ -67,9 +69,11 @@
             gb_startupSettings.Controls.Add(cb_bootServerOnStart);
             gb_startupSettings.Controls.Add(cb_startWithWindows);
             gb_startupSettings.Controls.Add(cb_startInTray);
-            gb_startupSettings.Location = new Point(93, 12);
+            gb_startupSettings.Location = new Point(106, 16);
+            gb_startupSettings.Margin = new Padding(3, 4, 3, 4);
             gb_startupSettings.Name = "gb_startupSettings";
-            gb_startupSettings.Size = new Size(149, 100);
+            gb_startupSettings.Padding = new Padding(3, 4, 3, 4);
+            gb_startupSettings.Size = new Size(170, 133);
             gb_startupSettings.TabIndex = 2;
             gb_startupSettings.TabStop = false;
             gb_startupSettings.Text = "Startup Settings";
@@ -77,9 +81,10 @@
             // cb_bootServerOnStart
             // 
             cb_bootServerOnStart.AutoSize = true;
-            cb_bootServerOnStart.Location = new Point(6, 72);
+            cb_bootServerOnStart.Location = new Point(7, 96);
+            cb_bootServerOnStart.Margin = new Padding(3, 4, 3, 4);
             cb_bootServerOnStart.Name = "cb_bootServerOnStart";
-            cb_bootServerOnStart.Size = new Size(131, 19);
+            cb_bootServerOnStart.Size = new Size(163, 24);
             cb_bootServerOnStart.TabIndex = 2;
             cb_bootServerOnStart.Text = "Boot server on start.";
             cb_bootServerOnStart.UseVisualStyleBackColor = true;
@@ -88,9 +93,10 @@
             // cb_startWithWindows
             // 
             cb_startWithWindows.AutoSize = true;
-            cb_startWithWindows.Location = new Point(6, 47);
+            cb_startWithWindows.Location = new Point(7, 63);
+            cb_startWithWindows.Margin = new Padding(3, 4, 3, 4);
             cb_startWithWindows.Name = "cb_startWithWindows";
-            cb_startWithWindows.Size = new Size(129, 19);
+            cb_startWithWindows.Size = new Size(159, 24);
             cb_startWithWindows.TabIndex = 1;
             cb_startWithWindows.Text = "Start with windows.";
             cb_startWithWindows.UseVisualStyleBackColor = true;
@@ -99,9 +105,10 @@
             // cb_startInTray
             // 
             cb_startInTray.AutoSize = true;
-            cb_startInTray.Location = new Point(6, 22);
+            cb_startInTray.Location = new Point(7, 29);
+            cb_startInTray.Margin = new Padding(3, 4, 3, 4);
             cb_startInTray.Name = "cb_startInTray";
-            cb_startInTray.Size = new Size(89, 19);
+            cb_startInTray.Size = new Size(110, 24);
             cb_startInTray.TabIndex = 0;
             cb_startInTray.Text = "Start in tray.";
             cb_startInTray.UseVisualStyleBackColor = true;
@@ -115,9 +122,10 @@
             // 
             // btn_tray
             // 
-            btn_tray.Location = new Point(413, 12);
+            btn_tray.Location = new Point(472, 16);
+            btn_tray.Margin = new Padding(3, 4, 3, 4);
             btn_tray.Name = "btn_tray";
-            btn_tray.Size = new Size(23, 23);
+            btn_tray.Size = new Size(26, 31);
             btn_tray.TabIndex = 1;
             btn_tray.Text = "↴";
             btn_tray.UseVisualStyleBackColor = true;
@@ -125,9 +133,10 @@
             // 
             // btn_exit
             // 
-            btn_exit.Location = new Point(384, 12);
+            btn_exit.Location = new Point(439, 16);
+            btn_exit.Margin = new Padding(3, 4, 3, 4);
             btn_exit.Name = "btn_exit";
-            btn_exit.Size = new Size(23, 23);
+            btn_exit.Size = new Size(26, 31);
             btn_exit.TabIndex = 0;
             btn_exit.Text = "⨉";
             btn_exit.UseVisualStyleBackColor = true;
@@ -135,9 +144,9 @@
             // 
             // start
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(448, 211);
+            ClientSize = new Size(512, 281);
             ControlBox = false;
             Controls.Add(btn_exit);
             Controls.Add(btn_tray);
@@ -146,6 +155,7 @@
             Controls.Add(btn_server);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(3, 4, 3, 4);
             Name = "start";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "start";

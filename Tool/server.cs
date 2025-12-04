@@ -16,6 +16,8 @@ namespace Tool
         private const int WM_VSCROLL = 0x0115;
         private const int SB_BOTTOM = 7;
 
+        private string ClosePassword = "keviniscool";
+
         public server()
         {
             InitializeComponent();
@@ -233,6 +235,8 @@ namespace Tool
 
         private void btn_menu_Click(object sender, EventArgs e)
         {
+            if (txt_closePassword.Text != ClosePassword) return;
+
             StopServer();
             start new_start = new start();
             new_start.notFirstLoad = true;
