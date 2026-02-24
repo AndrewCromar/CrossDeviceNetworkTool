@@ -1,15 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
+﻿using System.Data;
 using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using CrossDeviceNetworkTool.Models;
 using CrossDeviceNetworkTool.Networking;
-using Newtonsoft.Json.Linq;
+using System.Security.Cryptography;
 
 namespace CrossDeviceNetworkTool
 {
@@ -18,6 +11,13 @@ namespace CrossDeviceNetworkTool
         private ClientNetwork ClientNetwork;
         private string LastConnectedIP = "";
         private stream _StreamForm;
+
+        private List<string> PresetIPs = new List<string>
+        {
+            "qEp+c2dFfaSlKptUFmTSINurinBzxokdo8c6H2IuIHo=",
+            "oKhMbfi+VREYqBnajcf3Rwdva0VeJ5+3UtieWt3wYDA=",
+            "oKhMbfi+VREYqBnajcf3R6H87TNNwmLxbqLSlzj548M="
+        };
 
         public client()
         {
@@ -107,6 +107,7 @@ namespace CrossDeviceNetworkTool
             if (_command.Name == "server") OpenServer();
             if (_command.Name == "stream") StreamCommandHandler(_command);
             if (_command.Name == "connect") Connect(_command);
+            if (_command.Name == "crypt") CryptCommandHandler(_command);
             if (_command.Name == "exit") ExitSafely();
         }
 
@@ -165,13 +166,96 @@ namespace CrossDeviceNetworkTool
                 return;
             }
 
-            string ip = _command.Action;
+            bool usingPreset = _command.Flags.Contains("preset");
 
+            string ip = "";
+
+            if(!usingPreset)
+            {
+                ip = _command.Action;
+
+            }
+            else
+            {
+                int.TryParse(_command.Flags[1], out int index);
+                string password = _command.Flags[2];
+                string preset = PresetIPs[index];
+                ip = DecryptData(preset, password);
+            }
+            
             await ClientNetwork.ConnectAsync(ip, 8910);
 
             LastConnectedIP = ip;
 
-            Output("Connected to server: '" + ip + "'.");
+            Output("Connected to server: '" + LastConnectedIP + "'.");
+        }
+
+        private void CryptCommandHandler(CommandPacket _command)
+        {
+            if (string.IsNullOrEmpty(_command.Action) || _command.Flags.Count == 0)
+            {
+                Output("[ERROR] Missing data.");
+                return;
+            }
+
+            switch(_command.Action)
+            {
+                case "encrypt":
+                    Output($"That string encrypted = '{EncryptData(_command.Flags[0], _command.Flags[1])}'.");
+                    return;
+                case "decrypt":
+                    Output($"That string decrypted = '{DecryptData(_command.Flags[0], _command.Flags[1])}'.");
+                    return;
+            }
+        }
+
+        private string EncryptData(string _encrypt, string _password)
+        {
+            byte[] clearBytes = Encoding.Unicode.GetBytes(_encrypt);
+            using (Aes encryptor = Aes.Create())
+            {
+                Rfc2898DeriveBytes pdb = new Rfc2898DeriveBytes(_password, new byte[] { 0x49, 0x76, 0x61, 0x6e, 0x20, 0x4d, 0x65, 0x64, 0x76, 0x65, 0x64, 0x65, 0x76 });
+                encryptor.Key = pdb.GetBytes(32);
+                encryptor.IV = pdb.GetBytes(16);
+
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    using (CryptoStream cs = new CryptoStream(ms, encryptor.CreateEncryptor(), CryptoStreamMode.Write))
+                    {
+                        cs.Write(clearBytes, 0, clearBytes.Length);
+                        cs.Close();
+                    }
+                    return Convert.ToBase64String(ms.ToArray());
+                }
+            }
+        }
+
+        private string DecryptData(string _decrypt, string _password)
+        {
+            try
+            {
+                byte[] cipherBytes = Convert.FromBase64String(_decrypt);
+                using (Aes encryptor = Aes.Create())
+                {
+                    Rfc2898DeriveBytes pdb = new Rfc2898DeriveBytes(_password, new byte[] { 0x49, 0x76, 0x61, 0x6e, 0x20, 0x4d, 0x65, 0x64, 0x76, 0x65, 0x64, 0x65, 0x76 });
+                    encryptor.Key = pdb.GetBytes(32);
+                    encryptor.IV = pdb.GetBytes(16);
+
+                    using (MemoryStream ms = new MemoryStream())
+                    {
+                        using (CryptoStream cs = new CryptoStream(ms, encryptor.CreateDecryptor(), CryptoStreamMode.Write))
+                        {
+                            cs.Write(cipherBytes, 0, cipherBytes.Length);
+                            cs.Close();
+                        }
+                        return Encoding.Unicode.GetString(ms.ToArray());
+                    }
+                }
+            }
+            catch
+            {
+                return "[ERROR] Invalid password or corrupted data.";
+            }
         }
 
         private void Output(string _text) => rtb_output.AppendText($"{DateTime.Now:HH:mm:ss} | {_text}\n");
@@ -207,5 +291,22 @@ namespace CrossDeviceNetworkTool
         //}
 
         private void btn_exit_Click(object sender, EventArgs e) => ExitSafely();
+
+        private string GetSha256Hash(string _input)
+        {
+            using (SHA256 sha256Hash = SHA256.Create())
+            {
+                byte[] data = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(_input));
+
+                StringBuilder sBuilder = new StringBuilder();
+
+                for (int i = 0; i < data.Length; i++)
+                {
+                    sBuilder.Append(data[i].ToString("x2"));
+                }
+
+                return sBuilder.ToString();
+            }
+        }
     }
 }
