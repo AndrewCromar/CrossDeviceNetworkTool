@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -49,7 +51,9 @@ namespace CrossDeviceNetworkTool
         {
             if (_command.Name == "ping") PingCommandHandler(_command, _client);
             if (_command.Name == "stream") StreamCommandHandler(_command, _client);
+            if (_command.Name == "msg") MessageCommandHandler(_command, _client);
             if (_command.Name == "display") DisplayCommandHandler(_command, _client);
+            if (_command.Name == "web") WebCommandHandler(_command, _client);
             if (_command.Name == "exit" && _command.Flags.Contains("yes")) ExitSafely();
         }
 
@@ -107,6 +111,17 @@ namespace CrossDeviceNetworkTool
             return true;
         }
 
+        private async void MessageCommandHandler(CommandPacket _command, System.Net.Sockets.TcpClient _client)
+        {
+            _ = Task.Run(() =>
+            {
+                MessageBox.Show(_command.Action, "Incoming Message");
+            });
+
+            ResponsePacket response = new ResponsePacket { Name = _command.Name, Status = "success", Message = "Displayed your message." };
+            await _ServerNetwork.SendResponseAsync(_client, response);
+        }
+
         private async void DisplayCommandHandler(CommandPacket _command, System.Net.Sockets.TcpClient _client)
         {
             ResponsePacket response = new ResponsePacket { Name = _command.Name, Status = "success" };
@@ -132,6 +147,18 @@ namespace CrossDeviceNetworkTool
                     break;
             }
 
+            await _ServerNetwork.SendResponseAsync(_client, response);
+        }
+
+        private async void WebCommandHandler(CommandPacket _command, System.Net.Sockets.TcpClient _client)
+        {
+            Process.Start(new ProcessStartInfo
+            {
+                FileName = _command.Action,
+                UseShellExecute = true
+            });
+
+            ResponsePacket response = new ResponsePacket { Name = _command.Name, Status = "success", Message = "Opened that url." };
             await _ServerNetwork.SendResponseAsync(_client, response);
         }
 

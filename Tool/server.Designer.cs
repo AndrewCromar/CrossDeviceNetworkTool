@@ -34,9 +34,10 @@
             // 
             // btn_exit
             // 
-            btn_exit.Location = new Point(12, 12);
+            btn_exit.Location = new Point(10, 9);
+            btn_exit.Margin = new Padding(3, 2, 3, 2);
             btn_exit.Name = "btn_exit";
-            btn_exit.Size = new Size(94, 29);
+            btn_exit.Size = new Size(82, 22);
             btn_exit.TabIndex = 0;
             btn_exit.Text = "Exit";
             btn_exit.UseVisualStyleBackColor = true;
@@ -44,22 +45,24 @@
             // 
             // rtb_output
             // 
-            rtb_output.Location = new Point(12, 47);
+            rtb_output.Location = new Point(10, 35);
+            rtb_output.Margin = new Padding(3, 2, 3, 2);
             rtb_output.Name = "rtb_output";
             rtb_output.ReadOnly = true;
-            rtb_output.Size = new Size(936, 481);
+            rtb_output.Size = new Size(818, 359);
             rtb_output.TabIndex = 1;
             rtb_output.Text = "";
             // 
             // server
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(960, 540);
+            ClientSize = new Size(840, 405);
             ControlBox = false;
             Controls.Add(rtb_output);
             Controls.Add(btn_exit);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "server";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "server";

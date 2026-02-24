@@ -14,9 +14,8 @@ namespace CrossDeviceNetworkTool
 
         private List<string> PresetIPs = new List<string>
         {
-            "qEp+c2dFfaSlKptUFmTSINurinBzxokdo8c6H2IuIHo=",
-            "oKhMbfi+VREYqBnajcf3Rwdva0VeJ5+3UtieWt3wYDA=",
-            "oKhMbfi+VREYqBnajcf3R6H87TNNwmLxbqLSlzj548M="
+            "oKhMbfi+VREYqBnajcf3R6H87TNNwmLxbqLSlzj548M=",
+            "oKhMbfi+VREYqBnajcf3R1GTUgfFY2elf6QbYvtFXDM="
         };
 
         public client()
@@ -86,20 +85,29 @@ namespace CrossDeviceNetworkTool
 
         private CommandPacket ParseCommand(string _raw)
         {
-            CommandPacket command = new CommandPacket { };
+            if (string.IsNullOrWhiteSpace(_raw))
+                return new CommandPacket { Name = "Unknown", Action = "None", Flags = new List<string>() };
 
             string[] rawSplit = _raw.Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
-            command.Name = rawSplit.Length > 0 ? rawSplit[0] : "Unknown";
+            string name = rawSplit[0];
 
-            bool hasAction = rawSplit.Length > 1 && !rawSplit[1].StartsWith("-");
-            command.Action = hasAction ? rawSplit[1] : "None";
+            List<string> flags = rawSplit.Skip(1)
+                                         .Where(word => word.StartsWith("-"))
+                                         .Select(word => word.TrimStart('-'))
+                                         .ToList();
 
-            command.Flags = rawSplit.Skip(1)
-                                    .Where(word => word.StartsWith("-"))
-                                    .Select(word => word.TrimStart('-'))
-                                    .ToList();
-            return command;
+            var actionWords = rawSplit.Skip(1)
+                                      .Where(word => !word.StartsWith("-"));
+
+            string action = actionWords.Any() ? string.Join(" ", actionWords) : "None";
+
+            return new CommandPacket
+            {
+                Name = name,
+                Action = action,
+                Flags = flags
+            };
         }
 
         private void RunLocalCommand(CommandPacket _command)
