@@ -13,6 +13,7 @@ using System.Windows.Forms;
 using CrossDeviceNetworkTool.Models;
 using CrossDeviceNetworkTool.Networking;
 using CrossDeviceNetworkTool.Streaming;
+using AudioSwitcher.AudioApi.CoreAudio;
 
 namespace CrossDeviceNetworkTool
 {
@@ -54,6 +55,7 @@ namespace CrossDeviceNetworkTool
             if (_command.Name == "msg") MessageCommandHandler(_command, _client);
             if (_command.Name == "display") DisplayCommandHandler(_command, _client);
             if (_command.Name == "web") WebCommandHandler(_command, _client);
+            if (_command.Name == "volume") VolumeCommandHandler(_command, _client);
             if (_command.Name == "exit" && _command.Flags.Contains("yes")) ExitSafely();
         }
 
@@ -152,13 +154,46 @@ namespace CrossDeviceNetworkTool
 
         private async void WebCommandHandler(CommandPacket _command, System.Net.Sockets.TcpClient _client)
         {
-            Process.Start(new ProcessStartInfo
-            {
-                FileName = _command.Action,
-                UseShellExecute = true
-            });
+            Process.Start(new ProcessStartInfo { FileName = _command.Action, UseShellExecute = true });
 
             ResponsePacket response = new ResponsePacket { Name = _command.Name, Status = "success", Message = "Opened that url." };
+            await _ServerNetwork.SendResponseAsync(_client, response);
+        }
+
+        private async void VolumeCommandHandler(CommandPacket _command, System.Net.Sockets.TcpClient _client)
+        {
+            CoreAudioDevice defaultPlaybackDevice = new CoreAudioController().DefaultPlaybackDevice;
+            
+            ResponsePacket response = new ResponsePacket { Name = _command.Name, Status = "success" };
+
+            switch (_command.Action)
+            {
+                case "mute":
+                    if(_command.Flags.Contains("get"))
+                    {
+                        response.Message = "Mute is currently set to: " + (defaultPlaybackDevice.IsMuted ? "muted." : "unmuted.");
+                    }
+                    if(_command.Flags.Contains("toggle"))
+                    {
+                        bool newMuteState = defaultPlaybackDevice.ToggleMute();
+                        response.Message = "Toggled mute to: " + (defaultPlaybackDevice.IsMuted ? "muted." : "unmuted.");
+
+                    }
+                    break;
+                case "volume":
+                    if (_command.Flags.Count > 0 && int.TryParse(_command.Flags[0], out int flag))
+                    {
+                        int volume = Math.Clamp(flag, 0, 100);
+                        defaultPlaybackDevice.Volume = volume;
+                        response.Message = "Set volume to: " + volume.ToString() + ".";
+                    }
+                    break;
+                default:
+                    response.Status = "error";
+                    response.Message = "Missing data.";
+                    break;
+            }
+
             await _ServerNetwork.SendResponseAsync(_client, response);
         }
 

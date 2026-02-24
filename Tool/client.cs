@@ -176,15 +176,11 @@ namespace CrossDeviceNetworkTool
             }
 
             bool usingPreset = _command.Flags.Contains("preset");
+            bool usingLocalhost = _command.Flags.Contains("local");
 
-            string ip = "";
+            string ip = _command.Action;
 
-            if(!usingPreset)
-            {
-                ip = _command.Action;
-
-            }
-            else
+            if (usingPreset)
             {
                 int.TryParse(_command.Flags[1], out int index);
                 string password = _command.Flags[2];
@@ -192,11 +188,22 @@ namespace CrossDeviceNetworkTool
                 ip = DecryptData(preset, password);
             }
             
-            await ClientNetwork.ConnectAsync(ip, 8910);
+            if(usingLocalhost)
+            {
+                ip = "127.0.0.1";
+            }
 
-            LastConnectedIP = ip;
+            bool success = await ClientNetwork.ConnectAsync(ip, 8910);
 
-            Output("Connected to server: '" + LastConnectedIP + "'.");
+            if (success)
+            {
+                LastConnectedIP = ip;
+                Output("Connected to server: '" + LastConnectedIP + "'.");
+            }
+            else
+            {
+                Output("Failed to connect to the server.");
+            }
         }
 
         private void CryptCommandHandler(CommandPacket _command)
