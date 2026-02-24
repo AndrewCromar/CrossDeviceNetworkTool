@@ -140,6 +140,7 @@ namespace CrossDeviceNetworkTool
                     Output("Opened stream.");
                     break;
 
+
                 case "close":
                     _StreamForm.StopStream();
                     _StreamForm.Hide();
@@ -202,10 +203,11 @@ namespace CrossDeviceNetworkTool
             {
                 case "encrypt":
                     Output($"That string encrypted = '{EncryptData(_command.Flags[0], _command.Flags[1])}'.");
-                    return;
+                    break;
+
                 case "decrypt":
                     Output($"That string decrypted = '{DecryptData(_command.Flags[0], _command.Flags[1])}'.");
-                    return;
+                    break;
             }
         }
 
@@ -258,38 +260,13 @@ namespace CrossDeviceNetworkTool
             }
         }
 
-        private void Output(string _text) => rtb_output.AppendText($"{DateTime.Now:HH:mm:ss} | {_text}\n");
-
-        // Commented out old stuff.
-        //
-        //private void HandleLocalStream(string action)
-        //{
-        //    if (action == "open")
-        //    {
-        //        if (Application.OpenForms["stream"] == null)
-        //        {
-        //            if (string.IsNullOrWhiteSpace(LastConnectedIP))
-        //            {
-        //                Output("ERROR: No connection established. Use 'connect [ip]' first.");
-        //                return;
-        //            }
-
-        //            stream streamWindow = new stream();
-        //            streamWindow.Name = "stream";
-        //            streamWindow.Show();
-
-        //            streamWindow.StartStream(LastConnectedIP, 8911);
-        //            Output($"Stream window opened. Connecting to {LastConnectedIP}:8911...");
-        //        }
-        //    }
-        //    else if (action == "close")
-        //    {
-        //        Form streamWindow = Application.OpenForms["stream"];
-        //        streamWindow?.Close();
-        //        Output("Stream window closed.");
-        //    }
-        //}
-
+        private void Output(string _text)
+        {
+            rtb_output.AppendText($"{DateTime.Now:HH:mm:ss} | {_text}\n");
+            rtb_output.SelectionStart = rtb_output.Text.Length;
+            rtb_output.ScrollToCaret();
+        }
+        
         private void btn_exit_Click(object sender, EventArgs e) => ExitSafely();
 
         private string GetSha256Hash(string _input)
