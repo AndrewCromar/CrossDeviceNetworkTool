@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("CrossDeviceNetworkTool")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Tool")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86495fd45e43bcd675e8a330b150bc5252e0e685")]
-[assembly: System.Reflection.AssemblyProductAttribute("CrossDeviceNetworkTool")]
-[assembly: System.Reflection.AssemblyTitleAttribute("CrossDeviceNetworkTool")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b344e22a18f30d11f41c2965fc54917a4cd2cbe9")]
+[assembly: System.Reflection.AssemblyProductAttribute("Tool")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Tool")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
