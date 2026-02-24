@@ -82,5 +82,25 @@ namespace CrossDeviceNetworkTool.Networking
             }
             catch (Exception ex) { OnLog?.Invoke($"Failed to send response: {ex.Message}"); }
         }
+
+        public void Disconnect()
+        {
+            if (!_isRunning) return;
+
+            _isRunning = false;
+
+            try
+            {
+                _listener?.Stop();
+
+                _listener = null;
+
+                OnLog?.Invoke("Server shut down successfully.");
+            }
+            catch (Exception ex)
+            {
+                OnLog?.Invoke($"[ERROR] Failed to shutdown: {ex.Message}.");
+            }
+        }
     }
 }

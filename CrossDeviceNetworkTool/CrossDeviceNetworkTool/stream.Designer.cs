@@ -36,18 +36,20 @@
             // 
             pb_stream.Dock = DockStyle.Fill;
             pb_stream.Location = new Point(0, 0);
+            pb_stream.Margin = new Padding(3, 2, 3, 2);
             pb_stream.Name = "pb_stream";
-            pb_stream.Size = new Size(800, 450);
+            pb_stream.Size = new Size(840, 405);
             pb_stream.SizeMode = PictureBoxSizeMode.Zoom;
             pb_stream.TabIndex = 0;
             pb_stream.TabStop = false;
             // 
             // stream
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(840, 405);
             Controls.Add(pb_stream);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "stream";
             Text = "stream";
             ((System.ComponentModel.ISupportInitialize)pb_stream).EndInit();

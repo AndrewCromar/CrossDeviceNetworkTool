@@ -19,6 +19,8 @@ namespace CrossDeviceNetworkTool
 
         public async void StartStream(string ip, int port)
         {
+            if (_isStreaming) return;
+
             try
             {
                 _videoClient = new TcpClient();
@@ -28,8 +30,16 @@ namespace CrossDeviceNetworkTool
             }
             catch (Exception ex)
             {
+                _isStreaming = false;
                 MessageBox.Show($"Stream Connection Failed: {ex.Message}");
             }
+        }
+
+        public void StopStream()
+        {
+            _isStreaming = false;
+            _videoClient?.Close();
+            _videoClient = null;
         }
 
         private async Task ReceiveFramesAsync()

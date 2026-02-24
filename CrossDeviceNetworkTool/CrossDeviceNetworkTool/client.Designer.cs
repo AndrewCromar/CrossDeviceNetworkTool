@@ -31,21 +31,22 @@
             tb_command = new TextBox();
             btn_send = new Button();
             rtb_output = new RichTextBox();
-            btn_exit = new Button();
             SuspendLayout();
             // 
             // tb_command
             // 
-            tb_command.Location = new Point(12, 12);
+            tb_command.Location = new Point(10, 9);
+            tb_command.Margin = new Padding(3, 2, 3, 2);
             tb_command.Name = "tb_command";
-            tb_command.Size = new Size(736, 27);
+            tb_command.Size = new Size(730, 23);
             tb_command.TabIndex = 0;
             // 
             // btn_send
             // 
-            btn_send.Location = new Point(754, 12);
+            btn_send.Location = new Point(746, 11);
+            btn_send.Margin = new Padding(3, 2, 3, 2);
             btn_send.Name = "btn_send";
-            btn_send.Size = new Size(94, 29);
+            btn_send.Size = new Size(82, 22);
             btn_send.TabIndex = 1;
             btn_send.Text = "Send";
             btn_send.UseVisualStyleBackColor = true;
@@ -53,34 +54,25 @@
             // 
             // rtb_output
             // 
-            rtb_output.Location = new Point(12, 47);
+            rtb_output.Location = new Point(10, 37);
+            rtb_output.Margin = new Padding(3, 2, 3, 2);
             rtb_output.Name = "rtb_output";
             rtb_output.ReadOnly = true;
-            rtb_output.Size = new Size(936, 481);
+            rtb_output.Size = new Size(820, 360);
             rtb_output.TabIndex = 2;
             rtb_output.Text = "";
             // 
-            // btn_exit
-            // 
-            btn_exit.Location = new Point(854, 12);
-            btn_exit.Name = "btn_exit";
-            btn_exit.Size = new Size(94, 29);
-            btn_exit.TabIndex = 3;
-            btn_exit.Text = "Exit";
-            btn_exit.UseVisualStyleBackColor = true;
-            btn_exit.Click += btn_exit_Click;
-            // 
             // client
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(960, 540);
+            ClientSize = new Size(840, 405);
             ControlBox = false;
-            Controls.Add(btn_exit);
             Controls.Add(rtb_output);
             Controls.Add(btn_send);
             Controls.Add(tb_command);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "client";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "client";
@@ -93,6 +85,5 @@
         private TextBox tb_command;
         private Button btn_send;
         private RichTextBox rtb_output;
-        private Button btn_exit;
     }
 }

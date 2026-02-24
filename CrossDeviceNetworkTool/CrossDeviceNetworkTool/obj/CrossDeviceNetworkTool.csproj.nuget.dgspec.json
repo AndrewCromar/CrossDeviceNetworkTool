@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\scrom\\OneDrive\\Desktop\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool.csproj": {}
+    "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool.csproj": {}
   },
   "projects": {
-    "C:\\Users\\scrom\\OneDrive\\Desktop\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool.csproj": {
+    "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\scrom\\OneDrive\\Desktop\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool.csproj",
+        "projectUniqueName": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool.csproj",
         "projectName": "CrossDeviceNetworkTool",
-        "projectPath": "C:\\Users\\scrom\\OneDrive\\Desktop\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool.csproj",
-        "packagesPath": "C:\\Users\\scrom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\scrom\\OneDrive\\Desktop\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool\\obj\\",
+        "projectPath": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool.csproj",
+        "packagesPath": "C:\\Users\\andrew\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool\\CrossDeviceNetworkTool\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\scrom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

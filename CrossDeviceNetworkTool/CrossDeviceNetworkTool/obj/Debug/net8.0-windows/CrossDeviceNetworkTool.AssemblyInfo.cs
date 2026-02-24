@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrossDeviceNetworkTool")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a4727a9c7bb83d8f876e1d047515bc2b8134a90")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c652823a256e3cd33db1a219c6cc465bddb1e3f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrossDeviceNetworkTool")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrossDeviceNetworkTool")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
