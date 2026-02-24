@@ -4,6 +4,12 @@
     <Compile Update="client.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Commands\ClientCommands.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Commands\ServerCommands.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="server.cs">
       <SubType>Form</SubType>
     </Compile>

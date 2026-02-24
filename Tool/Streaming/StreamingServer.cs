@@ -1,12 +1,6 @@
-﻿using System;
-using System.Drawing;
-using System.Drawing.Imaging;
-using System.IO;
+﻿using System.Drawing.Imaging;
 using System.Net;
 using System.Net.Sockets;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using AForge.Video;
 using AForge.Video.DirectShow;
 
 namespace CrossDeviceNetworkTool.Streaming
