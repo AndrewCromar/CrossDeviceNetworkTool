@@ -1,4 +1,4 @@
-namespace CrossDeviceNetworkTool
+namespace Tool
 {
     internal static class Program
     {

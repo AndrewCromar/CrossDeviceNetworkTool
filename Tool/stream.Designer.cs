@@ -1,4 +1,4 @@
-﻿namespace CrossDeviceNetworkTool
+﻿namespace Tool
 {
     partial class stream
     {

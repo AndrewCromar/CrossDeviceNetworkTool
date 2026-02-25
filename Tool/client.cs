@@ -1,7 +1,7 @@
-﻿using CrossDeviceNetworkTool.Models;
-using CrossDeviceNetworkTool.Networking;
+﻿using Tool.Models;
+using Tool.Networking;
 
-namespace CrossDeviceNetworkTool
+namespace Tool
 {
     public partial class client : Form
     {
@@ -48,7 +48,7 @@ namespace CrossDeviceNetworkTool
 
         private void btn_send_Click(object sender, EventArgs e)
         {
-            SendCommand();
+            SendCommand(null);
         }
 
         private void btn_exit_Click(object sender, EventArgs e) => ExitSafely();

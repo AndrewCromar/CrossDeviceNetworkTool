@@ -1,8 +1,8 @@
-﻿using CrossDeviceNetworkTool.Models;
-using CrossDeviceNetworkTool.Networking;
-using CrossDeviceNetworkTool.Streaming;
+﻿using Tool.Models;
+using Tool.Networking;
+using Tool.Streaming;
 
-namespace CrossDeviceNetworkTool
+namespace Tool
 {
     public partial class server : Form
     {

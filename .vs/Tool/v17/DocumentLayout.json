@@ -1,50 +1,86 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\scrom\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\",
+  "WorkspaceRootPath": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C28DF06-C649-4DC7-8D32-E65CE9282059}|Tool\\Tool.csproj|c:\\users\\scrom\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C28DF06-C649-4DC7-8D32-E65CE9282059}|Tool\\Tool.csproj|solutionrelative:tool\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|c:\\users\\andrew\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\models\\packetbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|solutionrelative:tool\\models\\packetbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C28DF06-C649-4DC7-8D32-E65CE9282059}|Tool\\Tool.csproj|c:\\users\\scrom\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C28DF06-C649-4DC7-8D32-E65CE9282059}|Tool\\Tool.csproj|solutionrelative:tool\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|c:\\users\\andrew\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\models\\responsepacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|solutionrelative:tool\\models\\responsepacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C28DF06-C649-4DC7-8D32-E65CE9282059}|Tool\\Tool.csproj|c:\\users\\scrom\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\commands\\servercommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C28DF06-C649-4DC7-8D32-E65CE9282059}|Tool\\Tool.csproj|solutionrelative:tool\\commands\\servercommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|c:\\users\\andrew\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\models\\commandpacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|solutionrelative:tool\\models\\commandpacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C28DF06-C649-4DC7-8D32-E65CE9282059}|Tool\\Tool.csproj|c:\\users\\scrom\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\streaming\\streamingserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C28DF06-C649-4DC7-8D32-E65CE9282059}|Tool\\Tool.csproj|solutionrelative:tool\\streaming\\streamingserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|c:\\users\\andrew\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\commands\\clientcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|solutionrelative:tool\\commands\\clientcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C28DF06-C649-4DC7-8D32-E65CE9282059}|Tool\\Tool.csproj|c:\\users\\scrom\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\networking\\servernetwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C28DF06-C649-4DC7-8D32-E65CE9282059}|Tool\\Tool.csproj|solutionrelative:tool\\networking\\servernetwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|c:\\users\\andrew\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\commands\\clientcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|solutionrelative:tool\\commands\\clientcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C28DF06-C649-4DC7-8D32-E65CE9282059}|Tool\\Tool.csproj|c:\\users\\scrom\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\networking\\clientnetwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C28DF06-C649-4DC7-8D32-E65CE9282059}|Tool\\Tool.csproj|solutionrelative:tool\\networking\\clientnetwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|c:\\users\\andrew\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\streaming\\streamingserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|solutionrelative:tool\\streaming\\streamingserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C28DF06-C649-4DC7-8D32-E65CE9282059}|Tool\\Tool.csproj|c:\\users\\scrom\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\models\\responsepacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C28DF06-C649-4DC7-8D32-E65CE9282059}|Tool\\Tool.csproj|solutionrelative:tool\\models\\responsepacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|c:\\users\\andrew\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\networking\\servernetwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|solutionrelative:tool\\networking\\servernetwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C28DF06-C649-4DC7-8D32-E65CE9282059}|Tool\\Tool.csproj|c:\\users\\scrom\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\models\\packetbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C28DF06-C649-4DC7-8D32-E65CE9282059}|Tool\\Tool.csproj|solutionrelative:tool\\models\\packetbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|c:\\users\\andrew\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\networking\\clientnetwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|solutionrelative:tool\\networking\\clientnetwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C28DF06-C649-4DC7-8D32-E65CE9282059}|Tool\\Tool.csproj|c:\\users\\scrom\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\models\\commandpacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C28DF06-C649-4DC7-8D32-E65CE9282059}|Tool\\Tool.csproj|solutionrelative:tool\\models\\commandpacket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|c:\\users\\andrew\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\commands\\servercommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|solutionrelative:tool\\commands\\servercommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C28DF06-C649-4DC7-8D32-E65CE9282059}|Tool\\Tool.csproj|c:\\users\\scrom\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\commands\\clientcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C28DF06-C649-4DC7-8D32-E65CE9282059}|Tool\\Tool.csproj|solutionrelative:tool\\commands\\clientcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|c:\\users\\andrew\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\commands\\servercommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|solutionrelative:tool\\commands\\servercommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C28DF06-C649-4DC7-8D32-E65CE9282059}|Tool\\Tool.csproj|c:\\users\\scrom\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\stream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C28DF06-C649-4DC7-8D32-E65CE9282059}|Tool\\Tool.csproj|solutionrelative:tool\\stream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|c:\\users\\andrew\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\gui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|solutionrelative:tool\\gui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|c:\\users\\andrew\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\gui.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|solutionrelative:tool\\gui.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|c:\\users\\andrew\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\stream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|solutionrelative:tool\\stream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|c:\\users\\andrew\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\stream.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|solutionrelative:tool\\stream.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|c:\\users\\andrew\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|solutionrelative:tool\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|c:\\users\\andrew\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\server.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|solutionrelative:tool\\server.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|c:\\users\\andrew\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|solutionrelative:tool\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|c:\\users\\andrew\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\client.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|solutionrelative:tool\\client.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|c:\\users\\andrew\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\stream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|solutionrelative:tool\\stream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|c:\\users\\andrew\\dropbox\\kids\\andrew\\programming\\c-sharp\\crossdevicenetworktool\\tool\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C9A9FBC-7294-4B92-BD0C-15D196164C0D}|Tool\\Tool.csproj|solutionrelative:tool\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,145 +90,269 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "client.cs",
-              "DocumentMoniker": "C:\\Users\\scrom\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\client.cs",
-              "RelativeDocumentMoniker": "Tool\\client.cs",
-              "ToolTip": "C:\\Users\\scrom\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\client.cs",
-              "RelativeToolTip": "Tool\\client.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCoAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Program.cs",
+              "RelativeDocumentMoniker": "Tool\\Program.cs",
+              "ToolTip": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Program.cs",
+              "RelativeToolTip": "Tool\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T16:48:51.395Z",
+              "WhenOpened": "2026-02-25T03:37:42.608Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ServerCommands.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Commands\\ServerCommands.cs",
+              "RelativeDocumentMoniker": "Tool\\Commands\\ServerCommands.cs",
+              "ToolTip": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Commands\\ServerCommands.cs [Design]",
+              "RelativeToolTip": "Tool\\Commands\\ServerCommands.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T03:45:05.089Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientCommands.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Commands\\ClientCommands.cs",
+              "RelativeDocumentMoniker": "Tool\\Commands\\ClientCommands.cs",
+              "ToolTip": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Commands\\ClientCommands.cs [Design]",
+              "RelativeToolTip": "Tool\\Commands\\ClientCommands.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T03:44:45.208Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StreamingServer.cs",
+              "DocumentMoniker": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Streaming\\StreamingServer.cs",
+              "RelativeDocumentMoniker": "Tool\\Streaming\\StreamingServer.cs",
+              "ToolTip": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Streaming\\StreamingServer.cs",
+              "RelativeToolTip": "Tool\\Streaming\\StreamingServer.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowJYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T03:38:33.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "client.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\client.Designer.cs",
+              "RelativeDocumentMoniker": "Tool\\client.Designer.cs",
+              "ToolTip": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\client.Designer.cs",
+              "RelativeToolTip": "Tool\\client.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T03:38:30.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "gui.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\gui.Designer.cs",
+              "RelativeDocumentMoniker": "Tool\\gui.Designer.cs",
+              "ToolTip": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\gui.Designer.cs",
+              "RelativeToolTip": "Tool\\gui.Designer.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAowHsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T03:38:26.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "server.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\server.Designer.cs",
+              "RelativeDocumentMoniker": "Tool\\server.Designer.cs",
+              "ToolTip": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\server.Designer.cs",
+              "RelativeToolTip": "Tool\\server.Designer.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T03:38:17.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "stream.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\stream.Designer.cs",
+              "RelativeDocumentMoniker": "Tool\\stream.Designer.cs",
+              "ToolTip": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\stream.Designer.cs",
+              "RelativeToolTip": "Tool\\stream.Designer.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowCcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T03:38:13.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "stream.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\stream.cs",
+              "RelativeDocumentMoniker": "Tool\\stream.cs",
+              "ToolTip": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\stream.cs [Design]",
+              "RelativeToolTip": "Tool\\stream.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T03:38:10.35Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientCommands.cs",
+              "DocumentMoniker": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Commands\\ClientCommands.cs",
+              "RelativeDocumentMoniker": "Tool\\Commands\\ClientCommands.cs",
+              "ToolTip": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Commands\\ClientCommands.cs",
+              "RelativeToolTip": "Tool\\Commands\\ClientCommands.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T03:37:38.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ServerCommands.cs",
+              "DocumentMoniker": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Commands\\ServerCommands.cs",
+              "RelativeDocumentMoniker": "Tool\\Commands\\ServerCommands.cs",
+              "ToolTip": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Commands\\ServerCommands.cs",
+              "RelativeToolTip": "Tool\\Commands\\ServerCommands.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAqwKEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T03:37:33.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CommandPacket.cs",
+              "DocumentMoniker": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Models\\CommandPacket.cs",
+              "RelativeDocumentMoniker": "Tool\\Models\\CommandPacket.cs",
+              "ToolTip": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Models\\CommandPacket.cs",
+              "RelativeToolTip": "Tool\\Models\\CommandPacket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T03:37:28.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PacketBase.cs",
+              "DocumentMoniker": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Models\\PacketBase.cs",
+              "RelativeDocumentMoniker": "Tool\\Models\\PacketBase.cs",
+              "ToolTip": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Models\\PacketBase.cs",
+              "RelativeToolTip": "Tool\\Models\\PacketBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T03:37:26.033Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "server.cs",
-              "DocumentMoniker": "C:\\Users\\scrom\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\server.cs",
-              "RelativeDocumentMoniker": "Tool\\server.cs",
-              "ToolTip": "C:\\Users\\scrom\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\server.cs",
-              "RelativeToolTip": "Tool\\server.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Title": "ResponsePacket.cs",
+              "DocumentMoniker": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Models\\ResponsePacket.cs",
+              "RelativeDocumentMoniker": "Tool\\Models\\ResponsePacket.cs",
+              "ToolTip": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Models\\ResponsePacket.cs",
+              "RelativeToolTip": "Tool\\Models\\ResponsePacket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T16:48:45.627Z",
-              "IsPinned": true,
+              "WhenOpened": "2026-02-25T03:37:22.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClientNetwork.cs",
+              "DocumentMoniker": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Networking\\ClientNetwork.cs",
+              "RelativeDocumentMoniker": "Tool\\Networking\\ClientNetwork.cs",
+              "ToolTip": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Networking\\ClientNetwork.cs",
+              "RelativeToolTip": "Tool\\Networking\\ClientNetwork.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAUwE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T03:37:18.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServerNetwork.cs",
+              "DocumentMoniker": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Networking\\ServerNetwork.cs",
+              "RelativeDocumentMoniker": "Tool\\Networking\\ServerNetwork.cs",
+              "ToolTip": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Networking\\ServerNetwork.cs",
+              "RelativeToolTip": "Tool\\Networking\\ServerNetwork.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAiwGcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T03:37:15.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "client.cs",
+              "DocumentMoniker": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\client.cs",
+              "RelativeDocumentMoniker": "Tool\\client.cs",
+              "ToolTip": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\client.cs",
+              "RelativeToolTip": "Tool\\client.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAwD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T03:37:04.552Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "stream.cs",
-              "DocumentMoniker": "C:\\Users\\scrom\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\stream.cs",
-              "RelativeDocumentMoniker": "Tool\\stream.cs",
-              "ToolTip": "C:\\Users\\scrom\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\stream.cs",
-              "RelativeToolTip": "Tool\\stream.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Title": "gui.cs",
+              "DocumentMoniker": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\gui.cs",
+              "RelativeDocumentMoniker": "Tool\\gui.cs",
+              "ToolTip": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\gui.cs",
+              "RelativeToolTip": "Tool\\gui.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwCQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T16:48:56.499Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ResponsePacket.cs",
-              "DocumentMoniker": "C:\\Users\\scrom\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Models\\ResponsePacket.cs",
-              "RelativeDocumentMoniker": "Tool\\Models\\ResponsePacket.cs",
-              "ToolTip": "C:\\Users\\scrom\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Models\\ResponsePacket.cs",
-              "RelativeToolTip": "Tool\\Models\\ResponsePacket.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T16:49:07.152Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ServerNetwork.cs",
-              "DocumentMoniker": "C:\\Users\\scrom\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Networking\\ServerNetwork.cs",
-              "RelativeDocumentMoniker": "Tool\\Networking\\ServerNetwork.cs",
-              "ToolTip": "C:\\Users\\scrom\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Networking\\ServerNetwork.cs",
-              "RelativeToolTip": "Tool\\Networking\\ServerNetwork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T16:49:05.54Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ServerCommands.cs",
-              "DocumentMoniker": "C:\\Users\\scrom\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Commands\\ServerCommands.cs",
-              "RelativeDocumentMoniker": "Tool\\Commands\\ServerCommands.cs",
-              "ToolTip": "C:\\Users\\scrom\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Commands\\ServerCommands.cs",
-              "RelativeToolTip": "Tool\\Commands\\ServerCommands.cs",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAwwIUAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T19:18:49.998Z",
+              "WhenOpened": "2026-02-25T03:36:54.907Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ClientNetwork.cs",
-              "DocumentMoniker": "C:\\Users\\scrom\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Networking\\ClientNetwork.cs",
-              "RelativeDocumentMoniker": "Tool\\Networking\\ClientNetwork.cs",
-              "ToolTip": "C:\\Users\\scrom\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Networking\\ClientNetwork.cs",
-              "RelativeToolTip": "Tool\\Networking\\ClientNetwork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "stream.cs",
+              "DocumentMoniker": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\stream.cs",
+              "RelativeDocumentMoniker": "Tool\\stream.cs",
+              "ToolTip": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\stream.cs",
+              "RelativeToolTip": "Tool\\stream.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswFIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T16:49:06.186Z"
+              "WhenOpened": "2026-02-25T03:36:49.952Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StreamingServer.cs",
-              "DocumentMoniker": "C:\\Users\\scrom\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Streaming\\StreamingServer.cs",
-              "RelativeDocumentMoniker": "Tool\\Streaming\\StreamingServer.cs",
-              "ToolTip": "C:\\Users\\scrom\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Streaming\\StreamingServer.cs",
-              "RelativeToolTip": "Tool\\Streaming\\StreamingServer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "server.cs",
+              "DocumentMoniker": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\server.cs",
+              "RelativeDocumentMoniker": "Tool\\server.cs",
+              "ToolTip": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\server.cs",
+              "RelativeToolTip": "Tool\\server.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T16:49:04.906Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PacketBase.cs",
-              "DocumentMoniker": "C:\\Users\\scrom\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Models\\PacketBase.cs",
-              "RelativeDocumentMoniker": "Tool\\Models\\PacketBase.cs",
-              "ToolTip": "C:\\Users\\scrom\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Models\\PacketBase.cs",
-              "RelativeToolTip": "Tool\\Models\\PacketBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T16:49:07.819Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CommandPacket.cs",
-              "DocumentMoniker": "C:\\Users\\scrom\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Models\\CommandPacket.cs",
-              "RelativeDocumentMoniker": "Tool\\Models\\CommandPacket.cs",
-              "ToolTip": "C:\\Users\\scrom\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Models\\CommandPacket.cs",
-              "RelativeToolTip": "Tool\\Models\\CommandPacket.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T16:49:08.316Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ClientCommands.cs",
-              "DocumentMoniker": "C:\\Users\\scrom\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Commands\\ClientCommands.cs",
-              "RelativeDocumentMoniker": "Tool\\Commands\\ClientCommands.cs",
-              "ToolTip": "C:\\Users\\scrom\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Commands\\ClientCommands.cs",
-              "RelativeToolTip": "Tool\\Commands\\ClientCommands.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T19:15:26.005Z"
+              "WhenOpened": "2026-02-25T03:36:36.199Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,4 +1,4 @@
-﻿namespace CrossDeviceNetworkTool.Models
+﻿namespace CrossDevicTooleNetworkTool.Models
 {
     public class CommandPacket : PacketBase
     {

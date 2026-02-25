@@ -1,9 +1,9 @@
 ﻿using System.Net.Sockets;
 using System.Text;
 using Newtonsoft.Json;
-using CrossDeviceNetworkTool.Models;
+using Tool.Models;
 
-namespace CrossDeviceNetworkTool.Networking
+namespace Tool.Networking
 {
     public class ClientNetwork
     {

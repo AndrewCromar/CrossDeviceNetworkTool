@@ -319,19 +319,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\scrom\\.nuget\\packages\\": {}
+    "C:\\Users\\andrew\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\scrom\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Tool.csproj",
+      "projectUniqueName": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Tool.csproj",
       "projectName": "Tool",
-      "projectPath": "C:\\Users\\scrom\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Tool.csproj",
-      "packagesPath": "C:\\Users\\scrom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\scrom\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\obj\\",
+      "projectPath": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Tool.csproj",
+      "packagesPath": "C:\\Users\\andrew\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\scrom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

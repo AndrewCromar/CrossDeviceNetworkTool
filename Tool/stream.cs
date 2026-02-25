@@ -1,6 +1,6 @@
 ﻿using System.Net.Sockets;
 
-namespace CrossDeviceNetworkTool
+namespace Tool
 {
     public partial class stream : Form
     {

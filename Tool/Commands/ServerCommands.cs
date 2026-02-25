@@ -1,9 +1,9 @@
 ﻿using System.Diagnostics;
-using CrossDeviceNetworkTool.Models;
-using CrossDeviceNetworkTool.Streaming;
+using Tool.Models;
+using Tool.Streaming;
 using AudioSwitcher.AudioApi.CoreAudio;
 
-namespace CrossDeviceNetworkTool
+namespace Tool
 {
     public partial class server : Form
     {

@@ -1,14 +1,17 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
-using CrossDeviceNetworkTool.Models;
+using Tool.Models;
+using Tool;
 
-namespace CrossDeviceNetworkTool
+namespace Tool
 {
     public partial class client : Form
     {
-        private void SendCommand()
+        public void SendCommand(string _raw)
         {
             string raw = tb_command.Text;
+
+            if (_raw != null) raw = _raw;
 
             tb_command.Focus();
             tb_command.Clear();
@@ -63,6 +66,7 @@ namespace CrossDeviceNetworkTool
             if (_command.Name == "stream") StreamCommandHandler(_command);
             if (_command.Name == "connect") Connect(_command);
             if (_command.Name == "crypt") CryptCommandHandler(_command);
+            if (_command.Name == "gui") OpenGui();
             if (_command.Name == "exit") ExitSafely();
         }
 
@@ -137,6 +141,12 @@ namespace CrossDeviceNetworkTool
             this.Hide();
             server serverForm = new server();
             serverForm.Show();
+        }
+
+        public void OpenGui()
+        {
+            gui _gui = new gui(this);
+            _gui.Show();
         }
 
         private void ExitSafely()
