@@ -1,29 +1,31 @@
-REM Define the source and target directories for the Tool
-set "source_tool=D:\Programming\Winforms\CrossDeviceNetworkTool\Tool\bin\Debug\net8.0-windows"
-set "target_tool=D:\Programming\Winforms\CrossDeviceNetworkTool\Build\Cross Device Network Tool\Tool"
+@echo off
+set "SOURCE=Tool\bin\Release\net8.0-windows"
+set "DEST_PARENT=\"
+set "DEST_FOLDER=CDNT"
+set "FULL_DEST=%DEST_PARENT%%DEST_FOLDER%"
+set "ZIP_NAME=CDNT.zip"
+set "ZIP_EXE=C:\Program Files\7-Zip\7z.exe"
 
-REM Define the source and target directories for the Updater
-set "source_updater=D:\Programming\Winforms\CrossDeviceNetworkTool\Updater\bin\Debug\net8.0-windows"
-set "target_updater=D:\Programming\Winforms\CrossDeviceNetworkTool\Build\Cross Device Network Tool\Updater"
+echo --- Cleaning up old files ---
+if exist "%FULL_DEST%" rd /s /q "%FULL_DEST%"
+if exist "%ZIP_NAME%" del /f /q "%ZIP_NAME%"
 
-REM Define the source and target directories for the Dropbox copy
-set "source_dropbox=D:\Programming\Winforms\CrossDeviceNetworkTool\Build\Cross Device Network Tool"
-set "target_dropbox=C:\Users\andrew\Dropbox\Kids\Andrew\programming\c-sharp"
+echo --- Creating destination directory ---
+mkdir "%FULL_DEST%"
 
-REM Copy files from the Tool directory
-echo Copying files from %source_tool% to %target_tool%...
-xcopy "%source_tool%\*" "%target_tool%\" /s /e /y
+echo --- Copying files ---
+xcopy "%SOURCE%\*" "%FULL_DEST%\" /E /Y /I
 
-REM Copy files from the Updater directory
-echo Copying files from %source_updater% to %target_updater%...
-xcopy "%source_updater%\*" "%target_updater%\" /s /e /y
+echo --- Compressing with 7-Zip ---
+if exist "%ZIP_EXE%" (
+    :: We run the command from the parent directory so the zip contains the folder 'CDNT'
+    pushd "%DEST_PARENT%"
+    "%ZIP_EXE%" a -tzip "%~dp0%ZIP_NAME%" "%DEST_FOLDER%"
+    popd
+    
+    echo Success! Created %ZIP_NAME% with subfolder /CDNT/
+) else (
+    echo ERROR: 7-Zip not found at %ZIP_EXE%
+)
 
-REM Copy the entire Cross Device Network Tool folder to Dropbox
-echo Copying the entire Cross Device Network Tool folder to Dropbox...
-xcopy "%source_dropbox%" "%target_dropbox%\Cross Device Network Tool" /s /e /y /i
-
-REM Open the Tool folder in the Dropbox location
-echo Opening the Tool folder in Dropbox...
-start "" "%target_dropbox%\Cross Device Network Tool\Tool"
-
-exit
+pause

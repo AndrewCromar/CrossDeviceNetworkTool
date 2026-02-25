@@ -1,13 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="client.cs">
+    <Compile Update="Client.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="server.cs">
+    <Compile Update="Commands\ClientCommands.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="start.cs">
+    <Compile Update="Commands\ServerCommands.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Gui.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Server.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Stream.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

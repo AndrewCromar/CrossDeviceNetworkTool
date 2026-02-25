@@ -1,6 +1,6 @@
 ﻿namespace Tool
 {
-    partial class server
+    partial class Server
     {
         /// <summary>
         /// Required designer variable.
@@ -28,211 +28,50 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(server));
-            btn_start = new Button();
-            lbl_host = new Label();
-            txt_host = new TextBox();
-            txt_port = new TextBox();
-            lbl_port = new Label();
-            btn_stop = new Button();
-            txt_output = new RichTextBox();
-            btn_menu = new Button();
-            ni_trayIcon = new NotifyIcon(components);
-            t_outputScroller = new System.Windows.Forms.Timer(components);
-            btn_clearOutput = new Button();
-            btn_minimize = new Button();
-            btn_tray = new Button();
-            lbl_closePassword = new Label();
-            txt_closePassword = new TextBox();
+            btn_exit = new Button();
+            rtb_output = new RichTextBox();
             SuspendLayout();
             // 
-            // btn_start
+            // btn_exit
             // 
-            btn_start.Location = new Point(350, 8);
-            btn_start.Margin = new Padding(3, 4, 3, 4);
-            btn_start.Name = "btn_start";
-            btn_start.Size = new Size(86, 31);
-            btn_start.TabIndex = 0;
-            btn_start.Text = "Start";
-            btn_start.UseVisualStyleBackColor = true;
-            btn_start.Click += btn_start_Click;
+            btn_exit.Location = new Point(10, 9);
+            btn_exit.Margin = new Padding(3, 2, 3, 2);
+            btn_exit.Name = "btn_exit";
+            btn_exit.Size = new Size(82, 22);
+            btn_exit.TabIndex = 0;
+            btn_exit.Text = "Exit";
+            btn_exit.UseVisualStyleBackColor = true;
+            btn_exit.Click += btn_exit_Click;
             // 
-            // lbl_host
+            // rtb_output
             // 
-            lbl_host.AutoSize = true;
-            lbl_host.Location = new Point(14, 12);
-            lbl_host.Name = "lbl_host";
-            lbl_host.Size = new Size(43, 20);
-            lbl_host.TabIndex = 1;
-            lbl_host.Text = "Host:";
-            // 
-            // txt_host
-            // 
-            txt_host.Location = new Point(61, 8);
-            txt_host.Margin = new Padding(3, 4, 3, 4);
-            txt_host.Name = "txt_host";
-            txt_host.Size = new Size(114, 27);
-            txt_host.TabIndex = 2;
-            txt_host.Text = "0.0.0.0";
-            // 
-            // txt_port
-            // 
-            txt_port.Location = new Point(229, 8);
-            txt_port.Margin = new Padding(3, 4, 3, 4);
-            txt_port.Name = "txt_port";
-            txt_port.Size = new Size(114, 27);
-            txt_port.TabIndex = 4;
-            txt_port.Text = "50000";
-            // 
-            // lbl_port
-            // 
-            lbl_port.AutoSize = true;
-            lbl_port.Location = new Point(182, 12);
-            lbl_port.Name = "lbl_port";
-            lbl_port.Size = new Size(38, 20);
-            lbl_port.TabIndex = 3;
-            lbl_port.Text = "Port:";
-            // 
-            // btn_stop
-            // 
-            btn_stop.Location = new Point(442, 8);
-            btn_stop.Margin = new Padding(3, 4, 3, 4);
-            btn_stop.Name = "btn_stop";
-            btn_stop.Size = new Size(86, 31);
-            btn_stop.TabIndex = 5;
-            btn_stop.Text = "Stop";
-            btn_stop.UseVisualStyleBackColor = true;
-            btn_stop.Click += btn_stop_Click;
-            // 
-            // txt_output
-            // 
-            txt_output.Location = new Point(14, 47);
-            txt_output.Margin = new Padding(3, 4, 3, 4);
-            txt_output.Name = "txt_output";
-            txt_output.ReadOnly = true;
-            txt_output.Size = new Size(514, 405);
-            txt_output.TabIndex = 6;
-            txt_output.Text = "";
-            // 
-            // btn_menu
-            // 
-            btn_menu.Location = new Point(808, 16);
-            btn_menu.Margin = new Padding(3, 4, 3, 4);
-            btn_menu.Name = "btn_menu";
-            btn_menu.Size = new Size(26, 31);
-            btn_menu.TabIndex = 1;
-            btn_menu.Text = "←";
-            btn_menu.UseVisualStyleBackColor = true;
-            btn_menu.Click += btn_menu_Click;
-            // 
-            // ni_trayIcon
-            // 
-            ni_trayIcon.Icon = (Icon)resources.GetObject("ni_trayIcon.Icon");
-            ni_trayIcon.Text = "Tool - Andrew Cromar";
-            ni_trayIcon.MouseDoubleClick += ni_trayIcon_MouseDoubleClick;
-            // 
-            // t_outputScroller
-            // 
-            t_outputScroller.Enabled = true;
-            t_outputScroller.Interval = 10;
-            t_outputScroller.Tick += t_outputScroller_Tick;
-            // 
-            // btn_clearOutput
-            // 
-            btn_clearOutput.Location = new Point(14, 461);
-            btn_clearOutput.Margin = new Padding(3, 4, 3, 4);
-            btn_clearOutput.Name = "btn_clearOutput";
-            btn_clearOutput.Size = new Size(97, 31);
-            btn_clearOutput.TabIndex = 7;
-            btn_clearOutput.Text = "Clear Output";
-            btn_clearOutput.UseVisualStyleBackColor = true;
-            btn_clearOutput.Click += btn_clearOutput_Click;
-            // 
-            // btn_minimize
-            // 
-            btn_minimize.Location = new Point(841, 16);
-            btn_minimize.Margin = new Padding(3, 4, 3, 4);
-            btn_minimize.Name = "btn_minimize";
-            btn_minimize.Size = new Size(26, 31);
-            btn_minimize.TabIndex = 24;
-            btn_minimize.Text = "–";
-            btn_minimize.UseVisualStyleBackColor = true;
-            btn_minimize.Click += btn_minimize_Click;
-            // 
-            // btn_tray
-            // 
-            btn_tray.Location = new Point(874, 16);
-            btn_tray.Margin = new Padding(3, 4, 3, 4);
-            btn_tray.Name = "btn_tray";
-            btn_tray.Size = new Size(26, 31);
-            btn_tray.TabIndex = 25;
-            btn_tray.Text = "↴";
-            btn_tray.UseVisualStyleBackColor = true;
-            btn_tray.Click += btn_tray_Click;
-            // 
-            // lbl_closePassword
-            // 
-            lbl_closePassword.AutoSize = true;
-            lbl_closePassword.Location = new Point(659, 57);
-            lbl_closePassword.Name = "lbl_closePassword";
-            lbl_closePassword.Size = new Size(110, 20);
-            lbl_closePassword.TabIndex = 27;
-            lbl_closePassword.Text = "Close Password";
-            // 
-            // txt_closePassword
-            // 
-            txt_closePassword.Location = new Point(775, 54);
-            txt_closePassword.Name = "txt_closePassword";
-            txt_closePassword.Size = new Size(125, 27);
-            txt_closePassword.TabIndex = 26;
+            rtb_output.Location = new Point(10, 35);
+            rtb_output.Margin = new Padding(3, 2, 3, 2);
+            rtb_output.Name = "rtb_output";
+            rtb_output.ReadOnly = true;
+            rtb_output.Size = new Size(818, 359);
+            rtb_output.TabIndex = 1;
+            rtb_output.Text = "";
             // 
             // server
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(914, 600);
+            ClientSize = new Size(840, 405);
             ControlBox = false;
-            Controls.Add(lbl_closePassword);
-            Controls.Add(txt_closePassword);
-            Controls.Add(btn_tray);
-            Controls.Add(btn_minimize);
-            Controls.Add(btn_clearOutput);
-            Controls.Add(btn_menu);
-            Controls.Add(txt_output);
-            Controls.Add(btn_stop);
-            Controls.Add(txt_port);
-            Controls.Add(lbl_port);
-            Controls.Add(txt_host);
-            Controls.Add(lbl_host);
-            Controls.Add(btn_start);
+            Controls.Add(rtb_output);
+            Controls.Add(btn_exit);
             FormBorderStyle = FormBorderStyle.FixedSingle;
-            Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(3, 4, 3, 4);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "server";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "server";
-            Load += server_Load;
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private Button btn_start;
-        private Label lbl_host;
-        private TextBox txt_host;
-        private TextBox txt_port;
-        private Label lbl_port;
-        private Button btn_stop;
-        private RichTextBox txt_output;
-        private Button btn_menu;
-        private NotifyIcon ni_trayIcon;
-        private System.Windows.Forms.Timer t_outputScroller;
-        private Button btn_clearOutput;
-        private Button btn_minimize;
-        private Button btn_tray;
-        private Label lbl_closePassword;
-        private TextBox txt_closePassword;
+        private Button btn_exit;
+        private RichTextBox rtb_output;
     }
 }
