@@ -8,9 +8,10 @@ The server runs in the background so the user (my brother) does not even know it
 
 ### How to Use
 
-1. Run Tool.exe.
-2. Execute "server -l" to switch to a server.
-3. Run "connect xxx.xxx.xxx.xxx -l" to connect to the server.
-4. Run "gui -l" to open the client gui.
+1. Download "CDNT.zip" and extract it.
+2. Run Tool.exe.
+3. Execute "server -l" to switch to a server.
+4. Run "connect xxx.xxx.xxx.xxx -l" to connect to the server.
+5. Run "gui -l" to open the client gui.
 
 > Find the other commands in the code I don't wanna write them out.
