@@ -1,4 +1,4 @@
-﻿namespace CrossDevicTooleNetworkTool.Models
+﻿namespace Tool.Models
 {
     public class CommandPacket : PacketBase
     {

@@ -1,6 +1,6 @@
 ﻿namespace Tool
 {
-    partial class stream
+    partial class Stream
     {
         /// <summary>
         /// Required designer variable.

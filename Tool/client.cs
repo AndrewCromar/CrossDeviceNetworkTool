@@ -1,13 +1,14 @@
-﻿using Tool.Models;
+﻿using System.IO;
+using Tool.Models;
 using Tool.Networking;
 
 namespace Tool
 {
-    public partial class client : Form
+    public partial class Client : Form
     {
         private ClientNetwork ClientNetwork;
         private string LastConnectedIP = "";
-        private stream _StreamForm;
+        private Stream _StreamForm;
 
         private List<string> PresetIPs = new List<string>
         {
@@ -15,10 +16,10 @@ namespace Tool
             "oKhMbfi+VREYqBnajcf3R1GTUgfFY2elf6QbYvtFXDM="
         };
 
-        public client()
+        public Client()
         {
             InitializeComponent();
-            _StreamForm = new stream();
+            _StreamForm = new Stream();
             ClientNetwork = new ClientNetwork();
             ClientNetwork.OnLog += (_message) => ServerLogHandler(_message);
             ClientNetwork.OnResponseReceived += ServerResponseHandler;

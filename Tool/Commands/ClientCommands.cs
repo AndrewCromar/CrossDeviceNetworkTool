@@ -2,18 +2,20 @@
 using System.Text;
 using Tool.Models;
 using Tool;
+using System.Data.Common;
+using System;
 
 namespace Tool
 {
-    public partial class client : Form
+    public partial class Client : Form
     {
         public void SendCommand(string _raw)
         {
             string raw = tb_command.Text;
 
             if (_raw != null) raw = _raw;
+            else tb_command.Focus();
 
-            tb_command.Focus();
             tb_command.Clear();
 
             Output("Attempting to run command: " + raw);
@@ -139,13 +141,13 @@ namespace Tool
         {
             ClientNetwork.Disconnect();
             this.Hide();
-            server serverForm = new server();
+            Server serverForm = new Server();
             serverForm.Show();
         }
 
         public void OpenGui()
         {
-            gui _gui = new gui(this);
+            Gui _gui = new Gui(this);
             _gui.Show();
         }
 

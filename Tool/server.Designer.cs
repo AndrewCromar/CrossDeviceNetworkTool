@@ -1,6 +1,6 @@
 ﻿namespace Tool
 {
-    partial class server
+    partial class Server
     {
         /// <summary>
         /// Required designer variable.

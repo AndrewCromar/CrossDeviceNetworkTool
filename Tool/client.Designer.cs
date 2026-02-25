@@ -1,6 +1,6 @@
 ﻿namespace Tool
 {
-    partial class client
+    partial class Client
     {
         /// <summary>
         /// Required designer variable.
@@ -38,12 +38,13 @@
             tb_command.Location = new Point(10, 9);
             tb_command.Margin = new Padding(3, 2, 3, 2);
             tb_command.Name = "tb_command";
+            tb_command.PlaceholderText = "command";
             tb_command.Size = new Size(730, 23);
             tb_command.TabIndex = 0;
             // 
             // btn_send
             // 
-            btn_send.Location = new Point(746, 11);
+            btn_send.Location = new Point(746, 9);
             btn_send.Margin = new Padding(3, 2, 3, 2);
             btn_send.Name = "btn_send";
             btn_send.Size = new Size(82, 22);
@@ -62,7 +63,7 @@
             rtb_output.TabIndex = 2;
             rtb_output.Text = "";
             // 
-            // client
+            // Client
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -73,7 +74,7 @@
             Controls.Add(tb_command);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Margin = new Padding(3, 2, 3, 2);
-            Name = "client";
+            Name = "Client";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "client";
             ResumeLayout(false);

@@ -4,12 +4,12 @@ using Tool.Streaming;
 
 namespace Tool
 {
-    public partial class server : Form
+    public partial class Server : Form
     {
         private ServerNetwork _ServerNetwork;
         private StreamingServer _StreamServer;
 
-        public server()
+        public Server()
         {
             InitializeComponent();
             _ServerNetwork = new ServerNetwork();

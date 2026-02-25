@@ -2,12 +2,12 @@
 
 namespace Tool
 {
-    public partial class stream : Form
+    public partial class Stream : Form
     {
         private TcpClient _videoClient;
         private bool _isStreaming = false;
 
-        public stream()
+        public Stream()
         {
             InitializeComponent();
         }

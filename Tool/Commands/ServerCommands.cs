@@ -5,7 +5,7 @@ using AudioSwitcher.AudioApi.CoreAudio;
 
 namespace Tool
 {
-    public partial class server : Form
+    public partial class Server : Form
     {
         private async void PingCommandHandler(CommandPacket _command, System.Net.Sockets.TcpClient _client)
         {
@@ -133,6 +133,15 @@ namespace Tool
                     {
                         defaultPlaybackDevice.ToggleMute();
                         response.Message = "Toggled mute to: " + (defaultPlaybackDevice.IsMuted ? "muted." : "unmuted.");
+                    }
+                    else if (_command.Flags.Contains("set") && _command.Flags.Count > 1)
+                    {
+                        bool shouldMute = _command.Flags[1].ToLower() == "true";
+
+                        defaultPlaybackDevice.Mute(shouldMute);
+
+
+                        response.Message = "Set mute to: " + (shouldMute ? "muted." : "unmuted.");
                     }
                     break;
 
