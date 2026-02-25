@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2AOjdc/rAzU=",
+  "dgSpecHash": "l3kg2YreJ7s=",
   "success": true,
-  "projectFilePath": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\New Project\\Tool\\Tool\\Tool.csproj",
+  "projectFilePath": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Tool.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andrew\\.nuget\\packages\\aforge\\2.2.5\\aforge.2.2.5.nupkg.sha512",
     "C:\\Users\\andrew\\.nuget\\packages\\aforge.video\\2.2.5\\aforge.video.2.2.5.nupkg.sha512",

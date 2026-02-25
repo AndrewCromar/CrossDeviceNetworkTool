@@ -324,11 +324,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\New Project\\Tool\\Tool\\Tool.csproj",
+      "projectUniqueName": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Tool.csproj",
       "projectName": "Tool",
-      "projectPath": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\New Project\\Tool\\Tool\\Tool.csproj",
+      "projectPath": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\Tool.csproj",
       "packagesPath": "C:\\Users\\andrew\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\New Project\\Tool\\Tool\\obj\\",
+      "outputPath": "C:\\Users\\andrew\\Dropbox\\Kids\\Andrew\\programming\\c-sharp\\CrossDeviceNetworkTool\\Tool\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
